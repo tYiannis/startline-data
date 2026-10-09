@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-10-09T06:00:00Z",
+ "updated": "2026-10-09T04:54:58Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
   ["tokyo","Tokyo Marathon","Tokyo","Japan","Asia","2027-03-07",1,"HND",6,12,40,40,"flat","lottery|charity|qualifying","¥23,300 (overseas entrants)","M","4:40",37000,"Point-to-point from the Tokyo Metropolitan Government Building through Asakusa, Ginza and Shinagawa to Tokyo Station. Drops about 40 m early, then flat.","About 15 drink stations from 5 km, plus food stations in the second half","Water and sports drink; bananas, bread and Japanese snacks at food stations","https://www.marathon.tokyo/en/"],

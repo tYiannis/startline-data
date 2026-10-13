@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-10-13T05:02:16Z",
+ "updated": "2026-10-13T19:26:27Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
   ["tokyo","Tokyo Marathon","Tokyo","Japan","Asia","2027-03-07",1,"HND",9,13,42,40,"flat","lottery|charity|qualifying","¥23,300 (overseas entrants)","M","4:40",37000,"Point-to-point from the Tokyo Metropolitan Government Building through Asakusa, Ginza and Shinagawa to Tokyo Station. Drops about 40 m early, then flat.","About 15 drink stations from 5 km, plus food stations in the second half","Water and sports drink; bananas, bread and Japanese snacks at food stations","https://www.marathon.tokyo/en/"],
@@ -37,7 +37,7 @@
   ["brighton","Brighton Marathon","Brighton","UK","Europe","2027-04-04",1,"LGW",8,11,136,20,"rolling","open|charity","About £70–80","","4:30",13000,"Seafront course with an inland loop through the South Downs edge and a long run back along the promenade.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://www.brightonmarathonweekend.co.uk/"],
   ["edinburgh","Edinburgh Marathon","Edinburgh","UK","Europe","2027-05-30",1,"EDI",13,15,30,90,"flat","open|charity","About £80–95","","4:20",8000,"Net-downhill route from the city out along the East Lothian coast. Can be windy.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://www.edinburghmarathon.com/"],
   ["stockholm","Stockholm Marathon","Stockholm","Sweden","Europe","2027-05-29",1,"ARN",17,19,100,20,"rolling","open","SEK 1,295–1,995 (rises in sales waves)","","4:25",12000,"Loop through the city, its islands and over bridges, finishing in the 1912 Olympic Stadium.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://stockholmmarathon.se/eng/eng-lopare/"],
-  ["oslo","Oslo Marathon","Oslo","Norway","Europe","2027-09-11",0,"OSL",13,16,350,20,"hilly","open","About NOK 900","","4:20",4000,"Two laps along the Oslofjord waterfront past the Opera House.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://oslomaraton.no/en/"],
+  ["oslo","Oslo Marathon","Oslo","Norway","Europe","2027-09-18",1,"OSL",13,16,350,20,"hilly","open","About NOK 900","","4:20",4000,"Two laps along the Oslofjord waterfront past the Opera House.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://oslomaraton.no/en/"],
   ["helsinki","Helsinki City Marathon","Helsinki","Finland","Europe","2027-05-08",1,"HEL",9,12,100,10,"rolling","open","About €90","","4:30",4000,"Seaside course with island bridges, finishing at the Olympic Stadium.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://helsinkicityrun.fi/en/helsinkicitymarathon/"],
   ["reykjavik","Reykjavik Marathon","Reykjavik","Iceland","Europe","2027-08-21",1,"KEF",11,13,175,20,"rolling","open","About ISK 20,000","","4:20",1500,"Coastal course on the city's Culture Night. Cool but often windy.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://www.rmi.is/en"],
   ["riga","Riga Marathon","Riga","Latvia","Europe","2027-05-16",1,"RIX",11,17,40,10,"flat","open","About €60–80","","4:20",2500,"Two laps over the Daugava bridges and through the art nouveau old town.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://rimirigamarathon.com/en/"],
@@ -739,6 +739,17 @@
   "auckland": {"start":[-36.83077,174.79757],"startName":"Devonport Wharf","finish":[-36.84632,174.75276],"finishName":"Victoria Park"}
  },
  "entryStatus": {
+  "fukuoka-2026": {"s":"ballot-closed","note":"Applications ran 20 April – 20 May 2026 (lottery if oversubscribed).","src":"https://www.f-marathon.jp/en/","checked":"2026-10-13"},
+  "beirut-2026": {"s":"open","note":"Registration open until 23 November 2026.","src":"https://worldsmarathons.com/marathon/beirut-marathon","checked":"2026-10-13"},
+  "auckland-2026": {"s":"open","note":"\"Enter now\" on the official website.","src":"https://www.aucklandmarathon.co.nz/","checked":"2026-10-13"},
+  "seville-2027": {"s":"soldout","note":"Sold out on 24 April 2026 (20,000 runners); waiting list on the official website.","src":"https://www.zurichmaratonsevilla.es/en/","checked":"2026-10-13"},
+  "prague-2027": {"s":"open","note":"Registration for the spring 2027 season is open.","src":"https://www.runczech.com/en/","checked":"2026-10-13"},
+  "rotterdam-2027": {"s":"not-open","note":"Pre-registration for the marathon opens soon (date not announced); interest list on the official website.","src":"https://www.nnmarathonrotterdam.nl/en/","checked":"2026-10-13"},
+  "zurich-2027": {"s":"open","note":"Marathon registration open (half marathon sold out).","src":"https://www.zuerichmarathon.ch/","checked":"2026-10-13"},
+  "geneva-2027": {"s":"open","note":"2027 registration is officially open.","src":"https://generaligenevemarathon.com/en/","checked":"2026-10-13"},
+  "helsinki-2027": {"s":"open","note":"Registration open; early price until 31 October 2026.","src":"https://helsinkicityrun.fi/en/helsinkicitymarathon/","checked":"2026-10-13"},
+  "warsaw-2027": {"s":"open","note":"Registration for 2027 opened on 28 September 2026.","src":"https://maratonwarszawski.com/en/","checked":"2026-10-13"},
+  "eindhoven-2027": {"s":"not-open","note":"Not open yet; interest list on the official website.","src":"https://asmlmarathoneindhoven.nl/en/","checked":"2026-10-13"},
   "abudhabi-2026": {"s":"open","note":"Registration for 2026 is open.","src":"https://www.adnocabudhabimarathon.com/","checked":"2026-10-12"},
   "amsterdam-2026": {"s":"soldout","src":"https://www.anthonynolan.org/events/running/amsterdam-marathon","checked":"2026-10-10"},
   "athens-2026": {"s":"soldout","src":"https://www.ssafa.org.uk/support-us/events/run/athens-marathon-2026","checked":"2026-10-10"},

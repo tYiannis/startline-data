@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-10-13T19:26:27Z",
+ "updated": "2026-10-13T20:12:54Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
   ["tokyo","Tokyo Marathon","Tokyo","Japan","Asia","2027-03-07",1,"HND",9,13,42,40,"flat","lottery|charity|qualifying","¥23,300 (overseas entrants)","M","4:40",37000,"Point-to-point from the Tokyo Metropolitan Government Building through Asakusa, Ginza and Shinagawa to Tokyo Station. Drops about 40 m early, then flat.","About 15 drink stations from 5 km, plus food stations in the second half","Water and sports drink; bananas, bread and Japanese snacks at food stations","https://www.marathon.tokyo/en/"],
@@ -739,6 +739,12 @@
   "auckland": {"start":[-36.83077,174.79757],"startName":"Devonport Wharf","finish":[-36.84632,174.75276],"finishName":"Victoria Park"}
  },
  "entryStatus": {
+  "istanbul-2026": {"s":"closed","note":"The registration deadline was 13 October 2026.","src":"https://www.evrensel.net/haber/5993356/ibbden-sporculara-uyari-48-istanbul-maratonunda-avantajli-kayit-icin-son-gunler","checked":"2026-10-13"},
+  "rio-2027": {"s":"not-open","note":"Registration \"coming soon\" (inscrições em breve) on the official website.","src":"https://www.maratonadorio.com.br/","checked":"2026-10-13"},
+  "munich-2027": {"s":"not-open","note":"2027 registration not announced yet (2026 entry closed on 27 September 2026).","src":"https://marathonmuenchen.org/en/","checked":"2026-10-13"},
+  "cologne-2027": {"s":"not-open","note":"2027 registration not announced yet.","src":"https://www.generali-koeln-marathon.de/","checked":"2026-10-13"},
+  "twincities-2027": {"s":"not-open","note":"2027 registration not open yet; from 2027 the race weekend moves to 10–17 October.","src":"https://www.tcmevents.org/","checked":"2026-10-13"},
+  "lisbon-2027": {"s":"not-open","note":"The 2027 marathon is not on the organiser's website yet.","src":"https://www.maratonaclubedeportugal.com/","checked":"2026-10-13"},
   "fukuoka-2026": {"s":"ballot-closed","note":"Applications ran 20 April – 20 May 2026 (lottery if oversubscribed).","src":"https://www.f-marathon.jp/en/","checked":"2026-10-13"},
   "beirut-2026": {"s":"open","note":"Registration open until 23 November 2026.","src":"https://worldsmarathons.com/marathon/beirut-marathon","checked":"2026-10-13"},
   "auckland-2026": {"s":"open","note":"\"Enter now\" on the official website.","src":"https://www.aucklandmarathon.co.nz/","checked":"2026-10-13"},

@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-10-13T20:12:54Z",
+ "updated": "2026-10-13T20:20:40Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
   ["tokyo","Tokyo Marathon","Tokyo","Japan","Asia","2027-03-07",1,"HND",9,13,42,40,"flat","lottery|charity|qualifying","¥23,300 (overseas entrants)","M","4:40",37000,"Point-to-point from the Tokyo Metropolitan Government Building through Asakusa, Ginza and Shinagawa to Tokyo Station. Drops about 40 m early, then flat.","About 15 drink stations from 5 km, plus food stations in the second half","Water and sports drink; bananas, bread and Japanese snacks at food stations","https://www.marathon.tokyo/en/"],
@@ -37,7 +37,7 @@
   ["brighton","Brighton Marathon","Brighton","UK","Europe","2027-04-04",1,"LGW",8,11,136,20,"rolling","open|charity","About £70–80","","4:30",13000,"Seafront course with an inland loop through the South Downs edge and a long run back along the promenade.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://www.brightonmarathonweekend.co.uk/"],
   ["edinburgh","Edinburgh Marathon","Edinburgh","UK","Europe","2027-05-30",1,"EDI",13,15,30,90,"flat","open|charity","About £80–95","","4:20",8000,"Net-downhill route from the city out along the East Lothian coast. Can be windy.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://www.edinburghmarathon.com/"],
   ["stockholm","Stockholm Marathon","Stockholm","Sweden","Europe","2027-05-29",1,"ARN",17,19,100,20,"rolling","open","SEK 1,295–1,995 (rises in sales waves)","","4:25",12000,"Loop through the city, its islands and over bridges, finishing in the 1912 Olympic Stadium.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://stockholmmarathon.se/eng/eng-lopare/"],
-  ["oslo","Oslo Marathon","Oslo","Norway","Europe","2027-09-18",1,"OSL",13,16,350,20,"hilly","open","About NOK 900","","4:20",4000,"Two laps along the Oslofjord waterfront past the Opera House.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://oslomaraton.no/en/"],
+  ["oslo","Oslo Marathon","Oslo","Norway","Europe","2027-09-18",1,"OSL",13,16,350,20,"hilly","open","About NOK 1,350","","4:20",4000,"Two laps along the Oslofjord waterfront past the Opera House.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://oslomaraton.no/en/"],
   ["helsinki","Helsinki City Marathon","Helsinki","Finland","Europe","2027-05-08",1,"HEL",9,12,100,10,"rolling","open","About €90","","4:30",4000,"Seaside course with island bridges, finishing at the Olympic Stadium.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://helsinkicityrun.fi/en/helsinkicitymarathon/"],
   ["reykjavik","Reykjavik Marathon","Reykjavik","Iceland","Europe","2027-08-21",1,"KEF",11,13,175,20,"rolling","open","About ISK 20,000","","4:20",1500,"Coastal course on the city's Culture Night. Cool but often windy.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://www.rmi.is/en"],
   ["riga","Riga Marathon","Riga","Latvia","Europe","2027-05-16",1,"RIX",11,17,40,10,"flat","open","About €60–80","","4:20",2500,"Two laps over the Daugava bridges and through the art nouveau old town.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://rimirigamarathon.com/en/"],
@@ -87,7 +87,7 @@
   ["marrakech","Marrakech Marathon","Marrakech","Morocco","Africa","2027-01-31",0,"RAK",6,17,40,470,"flat","open","About €80","","4:20",3000,"Flat loop through palm groves with views of the snow-capped Atlas Mountains.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://www.marathon-marrakech.com/en/races/marrakech-marathon"],
   ["lagos","Lagos City Marathon","Lagos","Nigeria","Africa","2027-02-13",1,"LOS",26,29,30,10,"flat","open","About NGN 10,000","","5:00",2000,"Point-to-point from the National Stadium to Eko Atlantic. Hot and humid.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://lagoscitymarathon.com/"],
   ["luxor","Egyptian Marathon","Luxor","Egypt","Africa","2027-01-08",1,"LXR",10,16,20,80,"flat","open","About €100","","4:45",1000,"Loops past the Temple of Hatshepsut and the West Bank's ancient sites. Cool start, warm finish.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://www.hopasports.com/en/egyptianmarathon"],
-  ["melbourne","Melbourne Marathon","Melbourne","Australia","Oceania","2027-10-10",0,"MEL",10,15,100,30,"flat","open","About AU$190","","4:20",8000,"From the city along St Kilda's seafront, finishing inside the Melbourne Cricket Ground.","Water and sports drink about every 5 km, with extra water stops in between","Maurten Drink Mix 160 and Gel 100 on course","https://melbournemarathon.com.au/"],
+  ["melbourne","Melbourne Marathon","Melbourne","Australia","Oceania","2027-10-10",0,"MEL",10,15,100,30,"flat","lottery|qualifying","About AU$190","","4:20",8000,"From the city along St Kilda's seafront, finishing inside the Melbourne Cricket Ground.","Water and sports drink about every 5 km, with extra water stops in between","Maurten Drink Mix 160 and Gel 100 on course","https://melbournemarathon.com.au/"],
   ["goldcoast","Gold Coast Marathon","Gold Coast","Australia","Oceania","2027-07-04",0,"OOL",14,18,62,5,"flat","open","About AU$190","","4:10",6000,"Flat, fast out-and-back along the beachfront. Mild winter weather.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://goldcoastmarathon.com.au/"],
   ["auckland","Auckland Marathon","Auckland","New Zealand","Oceania","2026-11-01",1,"AKL",14,17,200,20,"rolling","open","About NZ$180","","4:30",2500,"Point-to-point from Devonport over the Auckland Harbour Bridge (the only day you can run it) and along the waterfront.","Water and sports drink about every 5 km, with extra water stops in between","Water, sports drink and fruit; energy gels at one or two stations","https://aucklandmarathon.co.nz/"]
  ],
@@ -195,7 +195,7 @@
   "brighton": [75,"GBP"],
   "edinburgh": [88,"GBP"],
   "stockholm": [1495,"SEK"],
-  "oslo": [900,"NOK"],
+  "oslo": [1350,"NOK"],
   "helsinki": [90,"EUR"],
   "reykjavik": [20000,"ISK"],
   "riga": [70,"EUR"],
@@ -739,6 +739,13 @@
   "auckland": {"start":[-36.83077,174.79757],"startName":"Devonport Wharf","finish":[-36.84632,174.75276],"finishName":"Victoria Park"}
  },
  "entryStatus": {
+  "frankfurt-2026": {"s":"soldout","note":"Marathon sold out (\"Ausgebucht\"); waiting list on the official registration page.","src":"https://www.frankfurt-marathon.com/anmeldelink-2026/","checked":"2026-10-13"},
+  "porto-2026": {"s":"soldout","note":"Marathon and 10K sold out on 21 September 2026.","src":"https://www.runporto.com/pt/novidades/noticias/edp-maratona-do-porto-esgota-42-km-e-10-km/","checked":"2026-10-13"},
+  "oslo-2027": {"s":"open","note":"Registration open (marathon NOK 1,350 including fees; the Oslo triple is full).","src":"https://www.oslomaraton.no/en/","checked":"2026-10-13"},
+  "tallinn-2027": {"s":"open","note":"Registration open (marathon €65 at the current price).","src":"https://iseteenindus.jooks.ee/en/?g=6","checked":"2026-10-13"},
+  "melbourne-2027": {"s":"not-open","note":"2027 ballot and application dates \"coming soon\" on the official website.","src":"https://melbournemarathon.com.au/entry-avenues-to-the-nike-melbourne-marathon-festival/","checked":"2026-10-13"},
+  "budapest-2027": {"s":"not-open","note":"The organiser's registration covers 2026 events only; 2027 not announced yet.","src":"https://runinbudapest.com/en/","checked":"2026-10-13"},
+  "kosice-2027": {"s":"not-open","note":"The 2027 race isn't open for registration on the official website yet.","src":"https://www.kosicemarathon.com/en/","checked":"2026-10-13"},
   "istanbul-2026": {"s":"closed","note":"The registration deadline was 13 October 2026.","src":"https://www.evrensel.net/haber/5993356/ibbden-sporculara-uyari-48-istanbul-maratonunda-avantajli-kayit-icin-son-gunler","checked":"2026-10-13"},
   "rio-2027": {"s":"not-open","note":"Registration \"coming soon\" (inscrições em breve) on the official website.","src":"https://www.maratonadorio.com.br/","checked":"2026-10-13"},
   "munich-2027": {"s":"not-open","note":"2027 registration not announced yet (2026 entry closed on 27 September 2026).","src":"https://marathonmuenchen.org/en/","checked":"2026-10-13"},

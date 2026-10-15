@@ -1,8 +1,16 @@
 {
  "schema": 2,
- "updated": "2026-10-14T06:35:16Z",
+ "updated": "2026-10-15T19:56:06Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
+  ["milan", "Milan Marathon", "Milan", "Italy", "Europe", "2027-04-04", 1, "MXP", 9, 15, 40, 133, "flat", "open", "About €90–110", "", "4:15", 6000, "From Corso Sempione through the city centre and out along the avenues, finishing in Piazza del Duomo.", "Water and supplements every 5 km plus two extra stations; sponge stations", "Fruit and biscuits from km 20", "https://www.milanomarathon.it/en/"],
+  ["malaga", "Málaga Marathon", "Málaga", "Spain", "Europe", "2026-11-08", 1, "AGP", 14, 20, 40, 12, "flat", "open", "About €60–80", "", "4:05", 5000, "Flat loop starting and finishing on Paseo del Parque, along the seafront and through the city.", "Water and isotonic drink at km 5, 10, 15, 18, 21, 25, 27.5, 30, 32.5, 35, 37.5 and 40", "Solid food at some stations from km 15", "https://www.generalimaratonmalaga.com/"],
+  ["antwerp", "Antwerp Marathon", "Antwerp", "Belgium", "Europe", "2026-10-18", 1, "BRU", 10, 15, 60, 1, "flat", "open", "About €80–130", "", "4:15", 3000, "From the Eilandje docklands past the cathedral, the Grote Markt and the Scheldt quays to the finish at the MAS museum.", "Drinks stations along the course (details in the official race guide)", "Ask the organiser which gels and food are offered", "https://antwerpmarathon.com/"],
+  ["lyon", "Lyon Marathon (Run in Lyon)", "Lyon", "France", "Europe", "2027-10-03", 1, "LYS", 12, 16, 250, 183, "rolling", "open", "About €70–90", "", "4:10", 6000, "From the Palais de Justice in Vieux Lyon up the Saône to Collonges-au-Mont-d'Or, then back through the Terreaux, Parc de la Tête d'Or, the Rhône quays, Gerland and Confluence to Place Bellecour.", "Drinks stations along the course (details in the official race guide)", "Ask the organiser which gels and food are offered", "https://www.runinlyon.com/en"],
+  ["krakow", "Kraków Marathon (Cracovia Maraton)", "Kraków", "Poland", "Europe", "2027-04-18", 0, "KRK", 10, 14, 80, 214, "flat", "open", "About PLN 190–250", "", "4:15", 6669, "Starts on the Main Market Square in the old town and follows the Vistula river for part of the way.", "Drinks stations along the course (details in the official race guide)", "Ask the organiser which gels and food are offered", "https://cracoviamaraton.pl/?hl=en"],
+  ["thessaloniki", "Alexander the Great Marathon", "Thessaloniki", "Greece", "Europe", "2027-04-04", 0, "SKG", 10, 16, 80, 54, "flat", "open", "About €20–40", "", "4:15", 1300, "Point to point from the statue of Alexander the Great in Pella, the ancient Macedonian capital, to the Thessaloniki waterfront by the White Tower.", "Drinks stations along the course (details in the official race guide)", "Ask the organiser which gels and food are offered", "https://atgm.gr/"],
+  ["medoc", "Marathon du Médoc", "Pauillac", "France", "Europe", "2027-09-04", 1, "BOD", 17, 23, 150, 7, "rolling", "open|tour", "About €110–225", "", "5:30", 7000, "Through the vineyards and wine châteaux of the Médoc, starting and finishing in Pauillac. Run on a Saturday.", "Drinks stations along the course (details in the official race guide)", "Ask the organiser which gels and food are offered", "https://www.marathondumedoc.com/en/"],
+  ["vilnius", "Vilnius Marathon", "Vilnius", "Lithuania", "Europe", "2027-09-12", 0, "VNO", 14, 19, 250, 98, "rolling", "open", "About €50–70", "", "4:20", 1500, "Starts and finishes on Cathedral Square in the heart of the old town.", "Drinks stations along the course (details in the official race guide)", "Ask the organiser which gels and food are offered", "https://www.vilniausmaratonas.lt/"],
   ["tokyo","Tokyo Marathon","Tokyo","Japan","Asia","2027-03-07",1,"HND",9,13,42,40,"flat","lottery|charity|qualifying","US$230 overseas · ¥19,800 Japan residents","M","4:40",37000,"Point-to-point from the Tokyo Metropolitan Government Building through Asakusa, Ginza and Shinagawa to Tokyo Station. Drops about 40 m early, then flat.","About 15 drink stations from 5 km, plus food stations in the second half","Water and sports drink; bananas, bread and Japanese snacks at food stations","https://www.marathon.tokyo/en/"],
   ["boston","Boston Marathon","Boston","USA","North America","2027-04-19",1,"BOS",11,15,250,145,"rolling","qualifying|charity","US$260","M","3:50",26000,"Point-to-point from Hopkinton to Boylston Street. Net downhill, but the Newton Hills (miles 16–21) end with Heartbreak Hill.","Water and Gatorade at every mile from mile 2","Maurten gels (official gel partner) and Gatorade Endurance","https://www.baa.org/races/boston-marathon"],
   ["london","London Marathon","London","UK","Europe","2027-04-25",1,"LHR",10,13,100,20,"flat","lottery|charity|qualifying","£225 international · £79.99 UK residents","M","4:35",56000,"Point-to-point from Greenwich past the Cutty Sark, over Tower Bridge, round Canary Wharf and along the Embankment to The Mall.","Water about every mile from mile 3; sports drink at several stations","Water, sports drink and energy gels at selected stations (brand changes by year)","https://www.tcslondonmarathon.com/"],
@@ -161,6 +169,14 @@
   "honolulu": "Stay in Waikiki; the start is downtown and the finish is in Kapiolani Park, a short walk from most hotels."
  },
  "fees": {
+  "milan": [100,"EUR"],
+  "malaga": [70,"EUR"],
+  "antwerp": [105,"EUR"],
+  "lyon": [80,"EUR"],
+  "krakow": [220,"PLN"],
+  "thessaloniki": [30,"EUR"],
+  "medoc": [160,"EUR"],
+  "vilnius": [60,"EUR"],
   "tokyo": [230,"USD",19800,"JPY"],
   "boston": [260,"USD"],
   "london": [225,"GBP",79.99],
@@ -285,6 +301,8 @@
   "EGP": 56
  },
  "priceLevel": {
+  "Belgium": 1.05,
+  "Lithuania": 0.65,
   "Japan": 0.85,
   "USA": 1.35,
   "UK": 1.15,
@@ -350,6 +368,9 @@
   "dublin": 1.35
  },
  "airports": {
+  "KRK": "Kraków",
+  "BOD": "Bordeaux",
+  "VNO": "Vilnius",
   "HND": "Tokyo Haneda",
   "BOS": "Boston Logan",
   "LHR": "London Heathrow",
@@ -475,6 +496,9 @@
   "BOG": "Bogotá"
  },
  "airportCoords": {
+  "KRK": [50.08,19.78],
+  "BOD": [44.83,-0.72],
+  "VNO": [54.63,25.29],
   "HND": [35.5,139.8],
   "BOS": [42.4,-71],
   "LHR": [51.5,-0.5],
@@ -600,6 +624,8 @@
   "BOG": [4.7,-74.1]
  },
  "countryCodes": {
+  "Belgium": "BE",
+  "Lithuania": "LT",
   "Japan": "JP",
   "USA": "US",
   "UK": "GB",
@@ -650,6 +676,14 @@
   "New Zealand": "NZ"
  },
  "courses": {
+  "milan": {"start":[45.47721,9.17043],"startName":"Corso Sempione","finish":[45.4645,9.18854],"finishName":"Piazza del Duomo"},
+  "malaga": {"start":[36.71911,-4.41551],"startName":"Paseo del Parque","finish":"same"},
+  "antwerp": {"start":[51.22924,4.40737],"startName":"Eilandje docklands (Limaplein)","finish":[51.22893,4.40471],"finishName":"MAS museum"},
+  "lyon": {"start":[45.76229,4.82821],"startName":"Palais de Justice, Vieux Lyon","finish":[45.75683,4.8315],"finishName":"Place Bellecour"},
+  "krakow": {"start":[50.0611,19.93658],"startName":"Main Market Square (Rynek Główny)","finish":null},
+  "thessaloniki": {"start":[40.76075,22.52479],"startName":"Pella, statue of Alexander the Great","finish":[40.62966,22.952],"finishName":"Waterfront by the White Tower"},
+  "medoc": {"start":[45.19866,-0.74565],"startName":"Pauillac waterfront","finish":"same"},
+  "vilnius": {"start":[54.68623,25.28695],"startName":"Cathedral Square (Katedros aikštė)","finish":"same"},
   "tokyo": {"start":[35.68913,139.69178],"startName":"Tokyo Metropolitan Government Building","finish":[35.68107,139.76743],"finishName":"Tokyo Station"},
   "boston": {"start":[42.22878,-71.51958],"startName":"Hopkinton Town Common","finish":[42.34996,-71.07625],"finishName":"Copley Square","route":[[42.22978,-71.51821],[42.23054,-71.51741],[42.23145,-71.51677],[42.23182,-71.51631],[42.23306,-71.51327],[42.23349,-71.51189],[42.23452,-71.50954],[42.23613,-71.50675],[42.23635,-71.50583],[42.23658,-71.50366],[42.23658,-71.5029],[42.23636,-71.50072],[42.23639,-71.49972],[42.23673,-71.49772],[42.23767,-71.49375],[42.23813,-71.49257],[42.24006,-71.48885],[42.24436,-71.47956],[42.24544,-71.47686],[42.24691,-71.47511],[42.24813,-71.47443],[42.24899,-71.47361],[42.25138,-71.47182],[42.25288,-71.46991],[42.25465,-71.46813],[42.2552,-71.46737],[42.25548,-71.46672],[42.25613,-71.46367],[42.25806,-71.45733],[42.25879,-71.45391],[42.25965,-71.45215],[42.26046,-71.45091],[42.26108,-71.45017],[42.26159,-71.44976],[42.26267,-71.44924],[42.26342,-71.44838],[42.26439,-71.44761],[42.26517,-71.44678],[42.26767,-71.4455],[42.26969,-71.44473],[42.27139,-71.44337],[42.27175,-71.44286],[42.27233,-71.44149],[42.27415,-71.4379],[42.27425,-71.43732],[42.27424,-71.43671],[42.27359,-71.43331],[42.27305,-71.43148],[42.27222,-71.42991],[42.27216,-71.42925],[42.27231,-71.42878],[42.27441,-71.42468],[42.27536,-71.42167],[42.27699,-71.41588],[42.2783,-71.40956],[42.28054,-71.3997],[42.28163,-71.39446],[42.28248,-71.38138],[42.28258,-71.37569],[42.2838,-71.36778],[42.28372,-71.367],[42.28276,-71.36353],[42.28225,-71.36128],[42.28222,-71.35959],[42.28383,-71.34705],[42.28511,-71.34038],[42.28617,-71.33748],[42.28733,-71.33439],[42.28854,-71.33157],[42.29327,-71.32274],[42.29537,-71.31592],[42.29577,-71.31389],[42.296,-71.31211],[42.29615,-71.30903],[42.29622,-71.30475],[42.29592,-71.29871],[42.29597,-71.29784],[42.29664,-71.2928],[42.29752,-71.29021],[42.29802,-71.28943],[42.3014,-71.28706],[42.30373,-71.28491],[42.3084,-71.27846],[42.31353,-71.27334],[42.31619,-71.26924],[42.31933,-71.26478],[42.32017,-71.26415],[42.32287,-71.26291],[42.32374,-71.26225],[42.32465,-71.26123],[42.32493,-71.26082],[42.32509,-71.26037],[42.32541,-71.25748],[42.32628,-71.25481],[42.3293,-71.25037],[42.32993,-71.24862],[42.33179,-71.24716],[42.33239,-71.24658],[42.33568,-71.2422],[42.33993,-71.23963],[42.34105,-71.23863],[42.33997,-71.23707],[42.33947,-71.23555],[42.33931,-71.23426],[42.33922,-71.22991],[42.33898,-71.22834],[42.33845,-71.22696],[42.33703,-71.22462],[42.33673,-71.22364],[42.33667,-71.22248],[42.33677,-71.22125],[42.33699,-71.22051],[42.33747,-71.2195],[42.33755,-71.21898],[42.33747,-71.2183],[42.33692,-71.21664],[42.33684,-71.2159],[42.33699,-71.21532],[42.33771,-71.21358],[42.33796,-71.21258],[42.33802,-71.21167],[42.33789,-71.20956],[42.33802,-71.20883],[42.33852,-71.20726],[42.3386,-71.20588],[42.33847,-71.20483],[42.33798,-71.20309],[42.33783,-71.20221],[42.33794,-71.19966],[42.33783,-71.19819],[42.3376,-71.19757],[42.33709,-71.19675],[42.33602,-71.19566],[42.33579,-71.19515],[42.33572,-71.19456],[42.33619,-71.19242],[42.33626,-71.18829],[42.33664,-71.18468],[42.33653,-71.18241],[42.33613,-71.17919],[42.33614,-71.17823],[42.33631,-71.17755],[42.33707,-71.17602],[42.33723,-71.17535],[42.33728,-71.17462],[42.33707,-71.1731],[42.33719,-71.17224],[42.33738,-71.17187],[42.3388,-71.17022],[42.33913,-71.16955],[42.33953,-71.1684],[42.33985,-71.16677],[42.34004,-71.16492],[42.33997,-71.16045],[42.3398,-71.15898],[42.33952,-71.15769],[42.33902,-71.15626],[42.33809,-71.15422],[42.33795,-71.1535],[42.33802,-71.15322],[42.33641,-71.15134],[42.33591,-71.15089],[42.33586,-71.15021],[42.33815,-71.13961],[42.33937,-71.1346],[42.33947,-71.1338],[42.33953,-71.1308],[42.33988,-71.12869],[42.3409,-71.12568],[42.34171,-71.12224],[42.34604,-71.1067],[42.34685,-71.10435],[42.34878,-71.09716],[42.34886,-71.09046],[42.3491,-71.08849],[42.34958,-71.08605],[42.34797,-71.08526],[42.34975,-71.07862]],"routeSource":"OpenStreetMap contributors (ODbL)"},
   "london": {"start":[51.46588,0.00908],"startName":"Blackheath","finish":[51.50675,-0.12868],"finishName":"The Mall"},
@@ -739,6 +773,7 @@
   "auckland": {"start":[-36.83077,174.79757],"startName":"Devonport Wharf","finish":[-36.84632,174.75276],"finishName":"Victoria Park"}
  },
  "entryStatus": {
+  "lyon-2027": {"s":"open","note":"Registration for the 3 October 2027 race is open.","src":"https://www.runinlyon.com/en","checked":"2026-10-15"},
   "madrid-2027": {"s":"open","note":"Registration open until 11 April 2027 or until places run out (marathon €120 now, €150 later).","src":"https://www.rockthesport.com/es/evento/zurich-rock-n-roll-running-series-madrid-2027","checked":"2026-10-14"},
   "seoul-2027": {"s":"open","note":"Overseas registration open on Dongma Club (USD 150); a marathon finish under 5 hours within the last two years is required.","src":"https://en.dongma.club/product/2027-Seoul-Marathon-full-course/1274/category/44/display/1/","checked":"2026-10-14"},
   "santiago-2027": {"s":"open","note":"Registration open for Chileans/residents and for overseas runners.","src":"https://maratondesantiago.cl/","checked":"2026-10-14"},
@@ -758,7 +793,7 @@
   "lisbon-2027": {"s":"not-open","note":"The 2027 marathon is not on the organiser's website yet.","src":"https://www.maratonaclubedeportugal.com/","checked":"2026-10-13"},
   "fukuoka-2026": {"s":"ballot-closed","note":"Applications ran 20 April – 20 May 2026 (lottery if oversubscribed).","src":"https://www.f-marathon.jp/en/","checked":"2026-10-13"},
   "beirut-2026": {"s":"open","note":"Registration open until 23 November 2026.","src":"https://worldsmarathons.com/marathon/beirut-marathon","checked":"2026-10-13"},
-  "auckland-2026": {"s":"open","note":"\"Enter now\" on the official website.","src":"https://www.aucklandmarathon.co.nz/","checked":"2026-10-13"},
+  "auckland-2026": {"s":"open","note":"\"Enter now\" on the official website.","src":"https://www.aucklandmarathon.co.nz/","checked": "2026-10-15"},
   "seville-2027": {"s":"soldout","note":"Sold out on 24 April 2026 (20,000 runners); waiting list on the official website.","src":"https://www.zurichmaratonsevilla.es/en/","checked":"2026-10-13"},
   "prague-2027": {"s":"open","note":"Registration for the spring 2027 season is open.","src":"https://www.runczech.com/en/","checked":"2026-10-13"},
   "rotterdam-2027": {"s":"not-open","note":"Pre-registration for the marathon opens soon (date not announced); interest list on the official website.","src":"https://www.nnmarathonrotterdam.nl/en/","checked":"2026-10-13"},
@@ -790,7 +825,7 @@
   "guadalajara-2026": {"s":"open","note":"Capped at 4,000 runners; entry also at the expo if places remain.","src":"https://running.life/es/carrera/maraton-internacional-guadalajara","checked":"2026-10-10"},
   "hamburg-2027": {"s":"soldout","note":"All 20,000 marathon places are taken; the half marathon and relay are sold out too.","src":"https://haspa-marathon-hamburg.de/en/news/","checked":"2026-10-14"},
   "hongkong-2027": {"s":"ballot-closed","note":"The public ballot opened on 11 September 2026.","src":"https://fatmarathoner.com/hong-kong-marathon-2027-record-quota/","checked":"2026-10-10"},
-  "honolulu-2026": {"s":"open","note":"Online registration is open; no field limit.","src":"https://www.honolulumarathon.org/key-information/how-to-enter","checked":"2026-10-14"},
+  "honolulu-2026": {"s":"open","note":"Online registration is open; no field limit.","src":"https://www.honolulumarathon.org/key-information/how-to-enter","checked": "2026-10-15"},
   "houston-2027": {"s":"soldout","note":"Sold out months early; places only through charity partners.","src":"https://hoodline.com/2026/08/houston-marathon-weekend-sells-out-5-months-early-as-40-000-runners-stampede-downtown/","checked":"2026-10-10"},
   "indianapolis-2026": {"s":"soldout","note":"Sold out in August, the earliest in the race's history; a waitlist is open.","src":"https://www.endurancesportswire.com/cno-financial-indianapolis-monumental-marathon-expands-to-largest-field-ever-sells-out-in-record-time/","checked":"2026-10-10"},
   "kobe-2026": {"s":"closed","note":"Entries were taken earlier in the year (first come, first served).","src":"https://jtbsports.jp/en/detail/5tblr","checked":"2026-10-10"},
@@ -801,7 +836,7 @@
   "luxor-2027": {"s":"open","note":"Registration closes on 1 January 2027 or when full.","src":"https://www.hopasports.com/en/event/34th-egyptian-marathon-luxor","checked":"2026-10-10"},
   "malta-2027": {"s":"open","note":"Early-bird price until 30 November; registration closes 20 February.","src":"https://worldsmarathons.com/marathon/malta-marathon/register","checked":"2026-10-10"},
   "manchester-2027": {"s":"soldout","note":"General entry sold out in April 2026, about ten days after places were released.","src":"https://the5krunner.com/2026/08/27/manchester-marathon-2027/","checked":"2026-10-10"},
-  "marinecorps-2026": {"s":"open","note":"The official site says registration is open; the challenge bundles are sold out.","src":"https://www.marinemarathon.com/event/marine-corps-marathon/","checked":"2026-10-14"},
+  "marinecorps-2026": {"s":"open","note":"The official site says registration is open; the challenge bundles are sold out.","src":"https://www.marinemarathon.com/event/marine-corps-marathon/","checked": "2026-10-15"},
   "marrakech-2027": {"s":"open","note":"Rolling registration with no ballot.","src":"https://fatmarathoner.com/?p=9928","checked":"2026-10-10"},
   "mumbai-2027": {"s":"open","note":"Registration opened on 31 July and closes when places fill.","src":"https://rajbhavan-maharashtra.gov.in/?p=67808","checked":"2026-10-10"},
   "nairobi-2026": {"s":"open","note":"Standard Chartered Nairobi Marathon at Uhuru Gardens.","src":"https://eastleighvoice.co.ke/athletics/377869/stanchart-nairobi-marathon-targets-over-30000-runners-for-2026-edition","checked":"2026-10-10"},
@@ -827,6 +862,14 @@
   "vienna-2027": {"s":"soldout","note":"Marathon sold out: the official registration page only offers a waiting list.","src":"https://events.vienna-marathon.com/events/c0af0e08b2f9d796d7fd/registration_options","checked":"2026-10-14"}
  },
  "tips": {
+  "milan": {"items":[["Who can enter","Runners from abroad need a RUNCARD plus an Italian-style sports medical certificate (with an ECG and other tests) to run competitively; otherwise you can enter the non-competitive 'tourism' category, which runs at the same time but without prizes."],["Getting to the start","The race starts on Corso Sempione near the Arco della Pace and finishes in Piazza del Duomo (2026 layout). The start is at 8:15 in waves."],["Time limits","You have 6 h 30. There are cut-offs at km 21.1 (3 h 15 into the race) and km 27.8 (4 h 20)."],["Entries","Registration closes at 23:59 on 31 March 2027, or earlier if full. The price rises the later you enter, plus a €5 service fee."]],"src":["https://www.milanomarathon.it/wp-content/uploads/2026/04/Rules-Wizz-Air-Milano-Marathon-2027_EN.pdf","https://www.milanofree.it/milano/eventi/milano-marathon-2026-data-12-aprile-partenza-e-arrivo-relay-family-run-e-guida-pratica-metro-viabilita-consigli.html"],"checked":"2026-10-15"},
+  "malaga": {"items":[["Getting to the start","Start and finish are on Paseo del Parque, opposite the University of Málaga Rectorate. The race starts at 8:30."],["Bib collection","Bibs are not handed out on race day: collect yours at the runners' fair with your registration receipt and ID or passport."],["Time limits","You have 5 h 30, with checkpoints every 5 km (for example 2:36 at 20 km and 3:54:30 at 30 km)."],["Entries","12,000 places; registration closes on 2 November 2026 at 20:00 or when places run out."]],"src":["https://www.generalimaratonmalaga.com/regulations-marathon-malaga/"],"checked":"2026-10-15"},
+  "antwerp": {"items":[["The course","The finish is at the MAS museum on the Eilandje; the course passes the Cathedral of Our Lady, the Grote Markt and the Scheldt quays."],["Time limit","The time limit is 5 h 30."],["Race date","The race moved to October: the 2026 edition is on Sunday 18 October."]],"src":["https://www.finishers.com/en/event/marathon-d-anvers","https://racecast.io/race/trek-antwerp-marathon"],"checked":"2026-10-15"},
+  "lyon": {"items":[["Getting to the start","The marathon starts from the Palais de Justice in Vieux Lyon at 8:15 in waves (until about 9:30 in 2026) and finishes on Place Bellecour."],["Time limit","The time limit is 5 h 30."],["Entries","Run in Lyon is very popular: in 2026 the marathon was almost sold out by May, so enter early. Registration for 3 October 2027 is open."]],"src":["https://www.runinlyon.com/en","https://www.marathons.com/fr/run-in-lyon/run-in-lyon-2026-36-000-coureurs-attendus-pour-une-edition-record_o184"],"checked":"2026-10-15"},
+  "krakow": {"items":[["Getting to the start","The marathon starts at 9:00 on the Main Market Square (Rynek Główny) in the old town."],["Weather","Late April can be warm: in 2026 runners had strong sunshine and temperatures up to 20 °C."],["Field size","A record 6,669 runners finished in 2026."]],"src":["https://cracoviamaraton.pl/record-attendance-6669-runners-completed-the-tauron-23rd-cracovia-marathon?hl=en","https://www.finishers.com/en/event/marathon-de-cracovie"],"checked":"2026-10-15"},
+  "thessaloniki": {"items":[["Getting to the start","The race starts in Pella, the birthplace of Alexander the Great, in front of his statue in the town's central square, about 40 km from Thessaloniki: plan your transport to the start."],["The finish","You finish on the Thessaloniki waterfront by the statue of Alexander the Great, near the White Tower."],["Race date","The 2026 race was on 26 April; check the official website for the confirmed 2027 date."]],"src":["https://aims-worldrunning.org/articles/3013-20th-anniversary-of-alexander-the-great-marathon.html","https://www.allovergreece.com/en/top-sports-events-greece/marathonios-megas-alexandros"],"checked":"2026-10-15"},
+  "medoc": {"items":[["Race day","The Marathon du Médoc is on Saturday 4 September 2027, starting and finishing in Pauillac."],["Entries","Packages with accommodation usually open around March; the official 2027 rules (bib-only places, any draw) aren't published yet."]],"src":["https://www.marathondumedoc.com/en/","https://reference-trail.fr/marathon-du-medoc-2027-inscriptions-dates-et-prix/"],"checked":"2026-10-15"},
+  "vilnius": {"items":[["Getting to the start","Start and finish are on Cathedral Square in the heart of Vilnius."],["Race weekend","Besides the marathon there are a half marathon, 10 km, 5 km and a children's run, so it's a good trip for friends and family."]],"src":["https://www.vilnius-events.lt/en/event/swedbank-vilnius-marathon/"],"checked":"2026-10-15"},
   "tokyo": {"items":[["Getting to the start","The start is beside the Tokyo Metropolitan Government Building in Shinjuku. Shinjuku Station is huge and easy to get lost in: walk the route the day before, and allow 15–20 minutes from the station to security."],["Race morning","You must enter through your assigned gate and start from your assigned corral; starting from another corral means disqualification. There is no race-day bib pickup, and bag check is only for runners who paid for it when entering."],["The course","The first few kilometres run downhill, which makes it easy to start too fast. Several out-and-back sections have cut-off times, so check them in your runner guide."]],"src":["https://www.marathon.tokyo/en/faq/pdf/handbook2019.pdf","https://en.japantravel.com/tokyo/running-tokyo/40070","https://runtothefinish.com/?p=101742"],"checked":"2026-10-10"},
   "boston": {"items":[["Getting to the start","Official B.A.A. buses take runners from Boston Common to Hopkinton (about an hour); driving to Hopkinton is discouraged. There's no need to take the very first bus: you'll only wait longer in Athletes' Village."],["Race morning","Athletes' Village is mostly open grass. Bring warm clothes you can throw away (they're collected and donated), something to sit on, and the breakfast you're used to."],["The course","Boston drops about 140 m overall, and the early downhills tempt you to go out too fast. Save energy for the Newton Hills from around km 26, ending with Heartbreak Hill near km 33; the last 8 km are mostly downhill."]],"src":["https://marathonhandbook.com/boston-marathon-2026-start-line-travel-planner/","https://therunningchannel.com/how-to-get-to-start-boston-marathon/","https://citiusmag.com/articles/boston-marathon-course-guide-mile-by-mile"],"checked":"2026-10-10"},
   "london": {"items":[["Getting to the start","The start is spread over several coloured assembly areas in Blackheath and Greenwich Park, each with its own station (Blackheath, Greenwich or Maze Hill). Your runner email names yours, and it can change from year to year. Runners travel free on race morning by showing their bib."],["Race morning","Trains to the start get very busy from about 7 am. Each start area is a 10–15 minute walk from its station, so leave plenty of time. Bag drop is at the start."],["The course","Flat and famous: past the Cutty Sark, over Tower Bridge near halfway, through Canary Wharf and along the Embankment to the finish on The Mall. Crowds are loud the whole way."]],"src":["https://www.southeasternrailway.co.uk/travel-information/plan-your-journey/london-marathon","https://www.coachweb.com/marathon-training/6521/london-marathon-travel-guide-how-to-get-to-the-race","https://coachweb.com/marathon-training/8126/london-marathon-route"],"checked":"2026-10-10"},
@@ -916,6 +959,7 @@
   "auckland": {"items":[["Getting to the start","The marathon starts at 6:00 on King Edward Parade in Devonport, across the harbour. Charter ferries to the start must be booked in advance in your registration (Hop cards don't work) and fill first come, first served: take an early one. Buses and trains are free with your bib."],["The course","North towards Takapuna, then over the Auckland Harbour Bridge, which is steeper than it looks and often windy. Pace yourself there. Then out and back along Tamaki Drive to St Heliers, finishing in Victoria Park."],["Cut-offs","There are intermediate cut-offs (including before the bridge and at St Heliers) and a 7-hour limit. Early-November mornings are cool, so bring a layer for the start."]],"src":["https://aucklandmarathon.co.nz/athlete-info/transport-services","https://aucklandmarathon.co.nz/race-info/full-marathon/","https://www.asb.co.nz/blog/2018/10/2018-asb-auckland-marathon-whats-happening.html"],"checked":"2026-10-10"}
  },
  "facts": {
+  "krakow": {"fin":6669,"finYear":2026,"finKind":"finishers","src":["https://cracoviamaraton.pl/record-attendance-6669-runners-completed-the-tauron-23rd-cracovia-marathon?hl=en"],"checked":"2026-10-15"},
   "tokyo": {"src":["https://ctyeh.com/articles/797?lang=en","https://www.rundida.com/marathon/tokyo/"],"checked":"2026-10-12","gain":42,"gainSrc":["https://ctyeh.com/articles/797?lang=en","https://www.rundida.com/marathon/tokyo/"],"gainKind":"sources"},
   "boston": {"avg":"3:43:13","avgYear":2025,"fin":28506,"finYear":2026,"finKind":"finishers","src":["https://marathonhandbook.com/average-boston-marathon-time/","https://www.romesentinel.com/sports/mohawk-valley-participants-2026-boston-marathon/article_c3461c3a-389d-491a-a80b-5cfc134295c0.html"],"checked":"2026-10-12","gain":250,"gainSrc":["https://runready.substack.com/p/the-2025-boston-marathon-course-guide-571","https://andrewskurka.com/boston-marathon-course-gpx-vertical-pacing-heart-rate-workouts/"],"gainKind":"sources"},
   "london": {"avg":"4:36:28","avgYear":2026,"fin":59830,"finYear":2026,"finKind":"finishers","src":["https://www.guinnessworldrecords.com/news/2026/4/tcs-london-marathon-extends-record-as-biggest-marathon-ever","https://en.wikipedia.org/wiki/2026_London_Marathon"],"checked":"2026-10-12","gain":100,"gainSrc":["https://runready.substack.com/p/the-2025-london-marathon-course-guide-821?r=ga6oh","https://www.coachweb.com/marathon-training/8126/london-marathon-route"],"gainKind":"sources"},

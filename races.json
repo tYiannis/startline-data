@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-10-17T06:15:21Z",
+ "updated": "2026-10-18T05:47:37Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
   ["milan", "Milan Marathon", "Milan", "Italy", "Europe", "2027-04-04", 1, "MXP", 9, 15, 40, 133, "flat", "open", "About €90–110", "", "4:15", 6000, "From Corso Sempione through the city centre and out along the avenues, finishing in Piazza del Duomo.", "Water and supplements every 5 km plus two extra stations; sponge stations", "Fruit and biscuits from km 20", "https://www.milanomarathon.it/en/"],
@@ -814,7 +814,7 @@
   "brighton-2027": {"s":"open","note":"Open to anyone, no ballot or qualifying time.","src":"https://marathonhandbook.com/brighton-marathon-london-alternative/","checked":"2026-10-10"},
   "capetown-2027": {"s":"ballot-closed","note":"The general ballot ran 10–24 June 2026. First race as a World Marathon Major.","src":"https://therunningchannel.com/apply-major-marathons-2027/","checked":"2026-10-10"},
   "casablanca-2026": {"s":"open","note":"17th edition; registration listed as open.","src":"https://www.finishers.com/course/marathon-international-de-casablanca","checked":"2026-10-10"},
-  "chicago-2027": {"s":"open","note":"Lottery and qualifier applications until 29 October 2026; results on 8 December.","src":"https://www.chicagomarathon.com/apply/","checked":"2026-10-14"},
+  "chicago-2027": {"s":"open","note":"Lottery and qualifier applications until 29 October 2026; results on 8 December.","src":"https://www.chicagomarathon.com/apply/","checked":"2026-10-18"},
   "cim-2026": {"s":"soldout","note":"Only official Race Roster transfers remain.","src":"https://runsra.org/california-international-marathon/registration/","checked":"2026-10-10"},
   "copenhagen-2027": {"s":"ballot-closed","note":"New for 2027: places were drawn by lottery (80,937 applied for 35,000 places).","src":"https://copenhagenmarathon.dk/en/massive-interest-in-copenhagen-marathon-more-than-80000-runners-apply-for-an-entry/","checked":"2026-10-10"},
   "doha-2027": {"s":"open","note":"Registration opened on 29 June.","src":"https://www.ooredoo.qa/web/en/press-release/registration-opens-for-milestone-15th-doha-marathon-by-ooredoo/","checked":"2026-10-10"},
@@ -853,7 +853,7 @@
   "shanghai-2026": {"s":"ballot-closed","note":"Lottery results were announced on 30 June.","src":"https://english.shanghai.gov.cn/en-SportsEvents/20260427/8152288074a44b44a7efbfd4b0b67797.html","checked":"2026-10-10"},
   "singapore-2026": {"s":"closed","note":"Registration closed on 30 September; local full-marathon places sold out in August. Now called the BYD Singapore International Marathon.","src":"https://littlebigreddot.com/singapore-international-marathon-2026-registration-route-fees/","checked":"2026-10-10"},
   "stockholm-2027": {"s":"open","note":"Sold in price waves; the price rises on 2 November.","src":"https://stockholmmarathon.se/eng/eng-lopare/","checked":"2026-10-10"},
-  "sydney-2027": {"s":"open","note":"Ballot open until 19 October 2026; draw on 3 November.","src":"https://www.tcssydneymarathon.com/sign-up","checked":"2026-10-17"},
+  "sydney-2027": {"s":"open","note":"Ballot open until 19 October 2026; draw on 3 November.","src":"https://www.tcssydneymarathon.com/sign-up","checked":"2026-10-18"},
   "taipei-2026": {"s":"ballot-closed","note":"Full-marathon places were drawn by lottery in July.","src":"https://www.nownews.com/news/6852972","checked":"2026-10-10"},
   "tokyo-2027": {"s":"ballot-closed","note":"The lottery ran 14–28 August 2026.","src":"https://therunningchannel.com/apply-major-marathons-2027/","checked":"2026-10-10"},
   "toronto-2026": {"s":"soldout","note":"The 5K may still have places.","src":"https://www.fatmarathoner.com/toronto-waterfront-marathon/","checked":"2026-10-10"},

@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-10-27T05:15:19Z",
+ "updated": "2026-11-01T07:56:18Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
   ["milan", "Milan Marathon", "Milan", "Italy", "Europe", "2027-04-04", 1, "MXP", 9, 15, 40, 133, "flat", "open", "About €90–110", "", "4:15", 6000, "From Corso Sempione through the city centre and out along the avenues, finishing in Piazza del Duomo.", "Water and supplements every 5 km plus two extra stations; sponge stations", "Fruit and biscuits from km 20", "https://www.milanomarathon.it/en/"],
@@ -105,7 +105,6 @@
  "entryWindows": {
   "rotterdam": [{"k":"pre-registration","y":2027,"from":"2026-10-20","to":"2026-11-03","c":1,"note":"Free; it gives access to first-come registration from 4 November, not a guaranteed place"}],
   "berlin": [{"k":"lottery","y":2027,"from":"2026-10-01","to":"2026-11-12","res":"2026-12-03","c":1}],
-  "chicago": [{"k":"lottery","y":2027,"from":"2026-10-08","to":"2026-10-29","res":"2026-12-08","c":1,"note":"Runners with a qualifying time apply in the same window"}],
   "dublin": [{"k":"ballot","y":2027,"from":"2026-11-12","to":"2026-11-17","c":1,"note":"€4 ballot fee, refunded if you don't get a place"}],
   "valencia": [{"k":"ballot","y":2027,"from":"2026-12-16","to":"2026-12-26","c":0,"note":"Last year's runners get a few days' priority before the public ballot"}],
   "nyc": [{"k":"drawing","y":2027,"from":"2027-02-02","to":"2027-02-23","c":0}],
@@ -811,7 +810,7 @@
   "boston-2027": {"s":"closed","note":"Qualifier registration closed on 18 September 2026; acceptances were sent in early October.","src":"https://marathonhandbook.com/boston-marathon-2027-registration-qualifier-lottery/","checked":"2026-10-10"},
   "brighton-2027": {"s":"soldout","note":"General entry is sold out; charity places are still available.","src":"https://www.londonmarathonevents.co.uk/brighton-marathon-weekend","checked":"2026-10-27"},
   "capetown-2027": {"s":"ballot-closed","note":"The general ballot ran 10–24 June 2026. First race as a World Marathon Major.","src":"https://therunningchannel.com/apply-major-marathons-2027/","checked":"2026-10-10"},
-  "chicago-2027": {"s":"open","note":"Lottery and qualifier applications until 29 October 2026; results on 8 December.","src":"https://www.chicagomarathon.com/apply/","checked":"2026-10-27"},
+  "chicago-2027": {"s":"ballot-closed","note":"Applications closed on 29 October 2026; drawing results are emailed on 8 December.","src":"https://www.chicagomarathon.com/apply/","checked":"2026-11-01"},
   "cim-2026": {"s":"soldout","note":"Only official Race Roster transfers remain.","src":"https://runsra.org/california-international-marathon/registration/","checked":"2026-10-10"},
   "copenhagen-2027": {"s":"ballot-closed","note":"New for 2027: places were drawn by lottery (80,937 applied for 35,000 places).","src":"https://copenhagenmarathon.dk/en/massive-interest-in-copenhagen-marathon-more-than-80000-runners-apply-for-an-entry/","checked":"2026-10-10"},
   "doha-2027": {"s":"open","note":"Registration opened on 29 June.","src":"https://www.ooredoo.qa/web/en/press-release/registration-opens-for-milestone-15th-doha-marathon-by-ooredoo/","checked":"2026-10-10"},

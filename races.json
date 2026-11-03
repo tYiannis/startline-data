@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-02T05:52:29Z",
+ "updated": "2026-11-03T05:40:46Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
   ["milan", "Milan Marathon", "Milan", "Italy", "Europe", "2027-04-04", 1, "MXP", 9, 15, 40, 133, "flat", "open", "About €90–110", "", "4:15", 6000, "From Corso Sempione through the city centre and out along the avenues, finishing in Piazza del Duomo.", "Water and supplements every 5 km plus two extra stations; sponge stations", "Fruit and biscuits from km 20", "https://www.milanomarathon.it/en/"],
@@ -802,7 +802,7 @@
   "malaga-2026": {"s":"open","note":"Registration open until 7 November 2026 at 20:00 (marathon €140).","src":"https://www.rockthesport.com/es/evento/generalimaratondemalaga2026","checked":"2026-10-21"},
   "athens-2026": {"s":"soldout","note":"The official website says registrations for the race are sold out.","src":"https://www.athensauthenticmarathon.gr/","checked":"2026-10-21"},
   "bangkok-2027": {"s":"open","note":"Registration open until 31 October or until places fill.","src":"https://www.timeout.com/bangkok/news/bangkok-marathon-071026","checked":"2026-10-10"},
-  "barcelona-2027": {"s":"open","note":"The cheaper price tiers have sold out; the €100 tier is on sale.","src":"https://barcelonaurbana.com/en/blog/barcelona-marathon-2027-registration-price-route","checked":"2026-10-10"},
+  "barcelona-2027": {"s":"soldout","note":"Sold out with a record 37,000 entries; registration closed about four and a half months before race day (organiser, 1 November 2026).","src":"https://zurichmaratobarcelona.es/en/2026/11/01/zurich-marato-de-barcelona-makes-history-with-37000-entries-sold-becoming-spains-most-popular-marathon/","checked":"2026-11-03"},
   "berlin-2027": {"s":"open","note":"Lottery open until 12 November 2026; results on 3 December.","src":"https://www.generali-berlin-marathon.com/en/registration/run","checked":"2026-10-27"},
   "bigsur-2027": {"s":"ballot-closed","note":"Drawing winners were announced on 8 September 2026.","src":"https://www.bigsurmarathon.org/register/","checked":"2026-10-10"},
   "boston-2027": {"s":"closed","note":"Qualifier registration closed on 18 September 2026; acceptances were sent in early October.","src":"https://marathonhandbook.com/boston-marathon-2027-registration-qualifier-lottery/","checked":"2026-10-10"},

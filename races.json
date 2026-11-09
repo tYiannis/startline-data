@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-09T05:58:39Z",
+ "updated": "2026-11-09T06:02:47Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
   ["nicecannes","Nice–Cannes Marathon","Nice","France","Europe","2027-11-07",1,"NCE",14,18,100,13,"flat","open|tour","From €66 (2026)","","4:20",8000,"Point to point along the French Riviera: from the Promenade des Anglais in Nice, along the coast between the sea and the palm trees, to the finish on the Croisette in Cannes, opposite the Palais des Festivals.","Refreshment stations along the course","Ask the organiser which gels and food are offered","https://www.marathon06.com/"],
@@ -108,6 +108,8 @@
   "nyc": {"2027":"2027-11-07"}
  },
  "entryWindows": {
+  "sydney": [{"k":"ballot","y":2028,"from":"2027-09-29","to":"2027-10-19","c":0,"note":"Expected from last year: the 2027 ballot ran 29 Sep – 19 Oct 2026"}],
+  "chicago": [{"k":"lottery","y":2028,"from":"2027-10-08","to":"2027-10-29","c":0,"note":"Expected from last year: 2027 applications ran 8–29 Oct 2026. Runners with a qualifying time apply in the same window"}],
   "nicecannes": [{"k":"Registration","y":2027,"from":"2026-11-12","to":null,"c":1,"note":"Opens Thursday 12 November 2026 at 12:00 (French time). The 2026 race sold out."}],
   "jakarta": [{"k":"International registration","y":2027,"from":"2026-12-01","to":"2026-12-31","c":1,"note":"Foreign runners enter the Open category on JAKIM.id, while places last."}],
   "berlin": [{"k":"lottery","y":2027,"from":"2026-10-01","to":"2026-11-12","res":"2026-12-03","c":1}],

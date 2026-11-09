@@ -1,8 +1,9 @@
 {
  "schema": 2,
- "updated": "2026-11-09T05:36:09Z",
+ "updated": "2026-11-09T05:58:39Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
+  ["nicecannes","Nice–Cannes Marathon","Nice","France","Europe","2027-11-07",1,"NCE",14,18,100,13,"flat","open|tour","From €66 (2026)","","4:20",8000,"Point to point along the French Riviera: from the Promenade des Anglais in Nice, along the coast between the sea and the palm trees, to the finish on the Croisette in Cannes, opposite the Palais des Festivals.","Refreshment stations along the course","Ask the organiser which gels and food are offered","https://www.marathon06.com/"],
   ["miami","Miami Marathon","Miami","USA","North America","2027-01-31",1,"MIA",18,21,60,12,"flat","open|charity|tour","US$225","","4:45",3500,"Starts in Downtown Miami by the Kaseya Center, crosses the MacArthur Causeway to Miami Beach and Ocean Drive, comes back over the Venetian Causeway and finishes in Bayfront Park.","Water and Gatorade Endurance at every aid station","Water and Gatorade Endurance; ask the organiser which gels are offered","https://www.themiamimarathon.com/"],
   ["dubai","Dubai Marathon","Dubai","UAE","Middle East","2027-01-17",1,"DXB",17,21,50,6,"flat","open","US$150","","4:30",2000,"Flat course from the Dubai Police Academy along Al Sufouh Road to Dubai Media City, then two loops of Jumeirah Beach Road past the Burj Al Arab, finishing on the Police Academy parade ground.","Water every 2.5 km from km 5; sports drink at km 15, 20, 25, 30, 35 and 40","Water and sports drink; bring your own gels","https://www.dubaimarathon.org/"],
   ["baku","Baku Marathon","Baku","Azerbaijan","Europe","2027-05-02",0,"GYD",19,20,150,-1,"rolling","open","100 AZN international · 20 AZN residents (2026)","","4:40",1500,"Point to point: from State Flag Square along Baku Boulevard and the seafront, past White City and Baku Arena, then along the Baku Ring Road to the finish at Sea Breeze on the north coast.","Drinks stations along the course (details from the organiser)","Ask the organiser which gels and food are offered","https://www.marathon.az/?lang=en"],
@@ -107,6 +108,7 @@
   "nyc": {"2027":"2027-11-07"}
  },
  "entryWindows": {
+  "nicecannes": [{"k":"Registration","y":2027,"from":"2026-11-12","to":null,"c":1,"note":"Opens Thursday 12 November 2026 at 12:00 (French time). The 2026 race sold out."}],
   "jakarta": [{"k":"International registration","y":2027,"from":"2026-12-01","to":"2026-12-31","c":1,"note":"Foreign runners enter the Open category on JAKIM.id, while places last."}],
   "berlin": [{"k":"lottery","y":2027,"from":"2026-10-01","to":"2026-11-12","res":"2026-12-03","c":1}],
   "dublin": [{"k":"ballot","y":2027,"from":"2026-11-12","to":"2026-11-17","c":1,"note":"€4 ballot fee, refunded if you don't get a place"}],
@@ -125,6 +127,7 @@
   "hongkong": [{"k":"public ballot","y":2028,"from":"2027-09-10","to":"2027-09-20","c":0}]
  },
  "expos": {
+  "nicecannes": ["Centre des Congrès Nicéa (Marathon Expo)","Port de Nice, Quai Amiral Infernet, Nice",[-3,-1],"Bibs aren't posted or handed out on race day. Bring ID, your collection voucher and your PPS health certificate."],
   "miami": ["Mana Wynwood (Miami Famous Expo)","318 NW 23rd St, Miami, FL 33127",[-2,-1],"Packet pickup is compulsory unless you bought bib mailing. Friday 12:00–19:00, Saturday 10:00–18:00.",1],
   "dubai": ["Dubai Media City (The Agenda)","Dubai Media City, Dubai",[-4,-1],"Bring photo ID; someone else can collect with a printout of your confirmation email and their own ID.",1],
   "jakarta": ["Jakarta International Convention Center (JICC)","Senayan, Gelora Bung Karno, Jakarta",[-3,-1],"A representative can collect with a signed authorisation letter and both ID cards.",1],
@@ -174,6 +177,7 @@
   "honolulu": "Stay in Waikiki; the start is downtown and the finish is in Kapiolani Park, a short walk from most hotels."
  },
  "fees": {
+  "nicecannes": [66,"EUR"],
   "miami": [225,"USD"],
   "dubai": [150,"USD"],
   "baku": [100,"AZN",20,"AZN"],
@@ -695,6 +699,7 @@
   "New Zealand": "NZ"
  },
  "courses": {
+  "nicecannes": {"start":[43.6946,7.2638],"startName":"Promenade des Anglais, Nice","finish":[43.5507,7.0171],"finishName":"La Croisette, Cannes (Palais des Festivals)"},
   "miami": {"start":[25.78136,-80.18794],"startName":"Kaseya Center, Biscayne Boulevard","finish":[25.77538,-80.18617],"finishName":"Bayfront Park"},
   "dubai": {"start":[25.13139,55.19054],"startName":"Dubai Police Academy, Umm Suqeim Road","finish":"same"},
   "baku": {"start":[40.34428,49.84515],"startName":"State Flag Square","finish":[40.59239,49.98452],"finishName":"Sea Breeze"},
@@ -796,6 +801,7 @@
   "auckland": {"start":[-36.83077,174.79757],"startName":"Devonport Wharf","finish":[-36.84632,174.75276],"finishName":"Victoria Park"}
  },
  "entryStatus": {
+  "nicecannes-2027": {"s":"not-open","note":"Registration for 2027 opens on Thursday 12 November 2026 at 12:00.","src":"https://www.marathon06.com/","checked":"2026-11-09"},
   "miami-2027": {"s":"soldout","note":"General registration is sold out. The waitlist closed on 30 September 2026 and freed-up places go out by lottery; travel packages may still be available.","src":"https://www.themiamimarathon.com/registration/","checked":"2026-11-09"},
   "dubai-2027": {"s":"open","note":"Registration for the 26th edition is open.","src":"https://www.dubaimarathon.org/","checked":"2026-11-09"},
   "antwerp-2027": {"s":"open","note":"Registration for the 24 October 2027 race is open (early-bird price).","src":"https://antwerpmarathon.com/en/edition-2027","checked":"2026-10-21"},
@@ -872,6 +878,7 @@
   "vienna-2027": {"s":"soldout","note":"Marathon sold out: the official registration page only offers a waiting list.","src":"https://events.vienna-marathon.com/events/c0af0e08b2f9d796d7fd/registration_options","checked":"2026-10-14"}
  },
  "tips": {
+  "nicecannes": {"items":[["Race morning","Starts go off in waves from 8:00 on the Promenade des Anglais in Nice. Bag drop is at Place Masséna, and your bag is taken to the finish in Cannes. Pacers cover 3:00 to 5:00 in 15-minute steps; the time limit is 6 hours."],["Getting back to Nice","It's a point-to-point race. On race day your bib is a free ticket on the regional ZOU trains between Nice and Cannes, all day and in both directions. There's also a paid bus shuttle (€15 in 2026) that you book with your entry."],["Before you go","Collect your bib at the Marathon Expo in Nice in the three days before the race: nothing is handed out on race day. In France, runners without a running club licence need the PPS health check (Parcours de Prévention Santé)."]],"src":["https://www.marathon06.com/2026/epreuves/marathon/","https://www.marathon06.com/2026/participer/navettes.htm","https://www.marathon06.com/2026/infos/retrait-des-dossards.htm"],"checked":"2026-11-09"},
   "miami": {"items":[["Race morning","The marathon and half start together at 6:00 in front of the Kaseya Center (601 Biscayne Blvd). Corrals go off in waves, so your own start can be a while later, and the first hour is run in the dark."],["Heat and the causeways","Mornings are mild but humid, and some years have been much hotter. The MacArthur and Venetian causeways have no shade once the sun is up: wear a cap and sunscreen, drink early and slow down if it's hot."],["The course","Flat, but the official course notes warn of a narrow on-ramp onto the MacArthur Causeway at the start, speed bumps (around miles 3.9 and 22) and some uneven road. Every aid station has water and Gatorade Endurance."]],"src":["https://www.themiamimarathon.com/course/","https://runtothefinish.com/miami-marathon-tips/","https://cbsnews.com/miami/news/thousands-of-runners-to-take-part-in-life-time-miami-marathon-half-marathon"],"checked":"2026-11-09"},
   "dubai": {"items":[["Getting to the start","Roads around Jumeirah Beach Road, Al Sufouh and the Police Academy are closed and there's no parking there. Park around Mall of the Emirates or Al Barsha and walk over the metro bridge, or take a taxi to Al Wasl Road. Arrive at least 90 minutes early."],["Race morning","The elite race starts at 5:45 and the mass marathon at 6:30, with a 6-hour time limit. Bag drop takes only the official bag from your race pack, with your bib sticker on it."],["The course","Flat and fast, with two loops of Jumeirah Beach Road past the Burj Al Arab. Water every 2.5 km from km 5 and sports drink every 5 km from km 15; no gels are listed, so carry your own."]],"src":["https://www.dubaimarathon.org/race-info/general-info/","https://www.dubaimarathon.org/race-info/routes-maps/"],"checked":"2026-11-09"},
   "baku": {"items":[["A new marathon","2026 was the first time the Baku Marathon was run over the full 42 km (on 3 May, starting at 10:00). The 2027 date isn't announced yet; early May is expected."],["Point to point","The race starts at State Flag Square in the city and finishes at Sea Breeze on the north coast, about 30 km away, so plan how you'll get back to your hotel."],["Wind","Baku is known for wind: the 2026 slogan was \"Win the Wind\", and the men's winner said the race was run in very strong wind."]],"src":["https://www.marathon.az/?lang=en","https://en.apa.az/others-type/baku-marathon-2026-concludes-photo-504316","https://caspianpost.com/azerbaijan/turkish-runner-wins-baku-marathon-2026-in-record-turnout"],"checked":"2026-11-09"},
@@ -1019,6 +1026,7 @@
   "goldcoast": {"src":["https://aims-worldrunning.org/articles/2589-flat-fast-and-scenic.html","https://rundida.com/marathon/gold-coast/"],"checked":"2026-10-13","gain":62,"gainSrc":["https://aims-worldrunning.org/articles/2589-flat-fast-and-scenic.html","https://rundida.com/marathon/gold-coast/"],"gainKind":"sources"}
  },
  "feeFacts": {
+  "nicecannes": {"price":"From €66 (first 1,000 entries), plus €1 for the Alpes-Maritimes food bank","y":2026,"src":"https://www.marathon06.com/2026/epreuves/marathon/","checked":"2026-11-09"},
   "miami": {"price":"US$225 general registration (sold out) · US$250 waitlist","y":2027,"src":"https://www.themiamimarathon.com/registration/","checked":"2026-11-09"},
   "dubai": {"price":"US$150","y":2027,"src":"https://www.dubaimarathon.org/race-info/entry-fees/","checked":"2026-11-09"},
   "baku": {"price":"100 AZN international · 20 AZN residents of Azerbaijan · students free","y":2026,"src":"https://www.marathon.az/?lang=en","checked":"2026-11-09"},

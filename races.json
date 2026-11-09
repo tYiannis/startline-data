@@ -1,8 +1,12 @@
 {
  "schema": 2,
- "updated": "2026-11-09T05:20:23Z",
+ "updated": "2026-11-09T05:36:09Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
+  ["miami","Miami Marathon","Miami","USA","North America","2027-01-31",1,"MIA",18,21,60,12,"flat","open|charity|tour","US$225","","4:45",3500,"Starts in Downtown Miami by the Kaseya Center, crosses the MacArthur Causeway to Miami Beach and Ocean Drive, comes back over the Venetian Causeway and finishes in Bayfront Park.","Water and Gatorade Endurance at every aid station","Water and Gatorade Endurance; ask the organiser which gels are offered","https://www.themiamimarathon.com/"],
+  ["dubai","Dubai Marathon","Dubai","UAE","Middle East","2027-01-17",1,"DXB",17,21,50,6,"flat","open","US$150","","4:30",2000,"Flat course from the Dubai Police Academy along Al Sufouh Road to Dubai Media City, then two loops of Jumeirah Beach Road past the Burj Al Arab, finishing on the Police Academy parade ground.","Water every 2.5 km from km 5; sports drink at km 15, 20, 25, 30, 35 and 40","Water and sports drink; bring your own gels","https://www.dubaimarathon.org/"],
+  ["baku","Baku Marathon","Baku","Azerbaijan","Europe","2027-05-02",0,"GYD",19,20,150,-1,"rolling","open","100 AZN international · 20 AZN residents (2026)","","4:40",1500,"Point to point: from State Flag Square along Baku Boulevard and the seafront, past White City and Baku Arena, then along the Baku Ring Road to the finish at Sea Breeze on the north coast.","Drinks stations along the course (details from the organiser)","Ask the organiser which gels and food are offered","https://www.marathon.az/?lang=en"],
+  ["jakarta","Jakarta International Marathon","Jakarta","Indonesia","Asia","2027-06-13",1,"CGK",25,27,40,6,"flat","open","IDR 1,814,900 (Open category)","","5:10",5000,"From Monas, the National Monument in central Jakarta, through the city centre to the finish inside the Gelora Bung Karno main stadium.","Water about every 2 km","Ask the organiser which gels and food are offered","https://jakim.id/"],
   ["milan", "Milan Marathon", "Milan", "Italy", "Europe", "2027-04-04", 1, "MXP", 9, 15, 40, 133, "flat", "open", "About €90–110", "", "4:15", 6000, "From Corso Sempione through the city centre and out along the avenues, finishing in Piazza del Duomo.", "Water and supplements every 5 km plus two extra stations; sponge stations", "Fruit and biscuits from km 20", "https://www.milanomarathon.it/en/"],
   ["malaga", "Málaga Marathon", "Málaga", "Spain", "Europe", "2027-11-14", 0, "AGP", 14, 20, 40, 12, "flat", "open", "About €60–80", "", "4:05", 5000, "Flat loop starting and finishing on Paseo del Parque, along the seafront and through the city.", "Water and isotonic drink at km 5, 10, 15, 18, 21, 25, 27.5, 30, 32.5, 35, 37.5 and 40", "Solid food at some stations from km 15", "https://www.generalimaratonmalaga.com/"],
   ["antwerp","Antwerp Marathon","Antwerp","Belgium","Europe","2027-10-24",1,"BRU",10,15,60,1,"flat","open","€105","","4:15",3000,"From the Eilandje docklands past the cathedral, the Grote Markt and the Scheldt quays to the finish at the MAS museum.","Drinks stations along the course (details in the official race guide)","Ask the organiser which gels and food are offered","https://antwerpmarathon.com/"],
@@ -103,6 +107,7 @@
   "nyc": {"2027":"2027-11-07"}
  },
  "entryWindows": {
+  "jakarta": [{"k":"International registration","y":2027,"from":"2026-12-01","to":"2026-12-31","c":1,"note":"Foreign runners enter the Open category on JAKIM.id, while places last."}],
   "berlin": [{"k":"lottery","y":2027,"from":"2026-10-01","to":"2026-11-12","res":"2026-12-03","c":1}],
   "dublin": [{"k":"ballot","y":2027,"from":"2026-11-12","to":"2026-11-17","c":1,"note":"€4 ballot fee, refunded if you don't get a place"}],
   "valencia": [{"k":"ballot","y":2027,"from":"2026-12-16","to":"2026-12-26","c":0,"note":"Last year's runners get a few days' priority before the public ballot"}],
@@ -120,6 +125,9 @@
   "hongkong": [{"k":"public ballot","y":2028,"from":"2027-09-10","to":"2027-09-20","c":0}]
  },
  "expos": {
+  "miami": ["Mana Wynwood (Miami Famous Expo)","318 NW 23rd St, Miami, FL 33127",[-2,-1],"Packet pickup is compulsory unless you bought bib mailing. Friday 12:00–19:00, Saturday 10:00–18:00.",1],
+  "dubai": ["Dubai Media City (The Agenda)","Dubai Media City, Dubai",[-4,-1],"Bring photo ID; someone else can collect with a printout of your confirmation email and their own ID.",1],
+  "jakarta": ["Jakarta International Convention Center (JICC)","Senayan, Gelora Bung Karno, Jakarta",[-3,-1],"A representative can collect with a signed authorisation letter and both ID cards.",1],
   "tokyo": ["Tokyo Big Sight","3-11-1 Ariake, Koto-ku, Tokyo",[-3,-1],"Bib collection in person only, with photo ID."],
   "boston": ["Hynes Convention Center","900 Boylston St, Boston",[-3,-1],"Near the finish line in Back Bay."],
   "london": ["ExCeL London (London Marathon Running Show)","Royal Victoria Dock, London E16 · Custom House station (DLR / Elizabeth line)",[-4,-1],"Quietest on Wednesday and Thursday; Saturday gets very busy."],
@@ -166,6 +174,10 @@
   "honolulu": "Stay in Waikiki; the start is downtown and the finish is in Kapiolani Park, a short walk from most hotels."
  },
  "fees": {
+  "miami": [225,"USD"],
+  "dubai": [150,"USD"],
+  "baku": [100,"AZN",20,"AZN"],
+  "jakarta": [1814900,"IDR",1000000,"IDR"],
   "milan": [100,"EUR"],
   "malaga": [70,"EUR"],
   "antwerp": [105,"EUR"],
@@ -263,6 +275,8 @@
   "auckland": [180,"NZD"]
  },
  "fx": {
+  "AZN": 1.96,
+  "IDR": 18700,
   "EUR": 1,
   "GBP": 0.86,
   "USD": 1.15,
@@ -298,6 +312,8 @@
   "EGP": 56
  },
  "priceLevel": {
+  "Azerbaijan": 0.55,
+  "Indonesia": 0.45,
   "Belgium": 1.05,
   "Lithuania": 0.65,
   "Japan": 0.85,
@@ -365,6 +381,8 @@
   "dublin": 1.35
  },
  "airports": {
+  "GYD": "Baku",
+  "CGK": "Jakarta",
   "KRK": "Kraków",
   "BOD": "Bordeaux",
   "VNO": "Vilnius",
@@ -493,6 +511,8 @@
   "BOG": "Bogotá"
  },
  "airportCoords": {
+  "GYD": [40.47,50.05],
+  "CGK": [-6.13,106.66],
   "KRK": [50.08,19.78],
   "BOD": [44.83,-0.72],
   "VNO": [54.63,25.29],
@@ -621,6 +641,8 @@
   "BOG": [4.7,-74.1]
  },
  "countryCodes": {
+  "Azerbaijan": "AZ",
+  "Indonesia": "ID",
   "Belgium": "BE",
   "Lithuania": "LT",
   "Japan": "JP",
@@ -673,6 +695,10 @@
   "New Zealand": "NZ"
  },
  "courses": {
+  "miami": {"start":[25.78136,-80.18794],"startName":"Kaseya Center, Biscayne Boulevard","finish":[25.77538,-80.18617],"finishName":"Bayfront Park"},
+  "dubai": {"start":[25.13139,55.19054],"startName":"Dubai Police Academy, Umm Suqeim Road","finish":"same"},
+  "baku": {"start":[40.34428,49.84515],"startName":"State Flag Square","finish":[40.59239,49.98452],"finishName":"Sea Breeze"},
+  "jakarta": {"start":[-6.1754,106.82717],"startName":"Monas (National Monument)","finish":[-6.2186,106.80261],"finishName":"Gelora Bung Karno main stadium"},
   "milan": {"start":[45.47721,9.17043],"startName":"Corso Sempione","finish":[45.4645,9.18854],"finishName":"Piazza del Duomo"},
   "malaga": {"start":[36.71911,-4.41551],"startName":"Paseo del Parque","finish":"same"},
   "antwerp": {"start":[51.22924,4.40737],"startName":"Eilandje docklands (Limaplein)","finish":[51.22893,4.40471],"finishName":"MAS museum"},
@@ -770,6 +796,8 @@
   "auckland": {"start":[-36.83077,174.79757],"startName":"Devonport Wharf","finish":[-36.84632,174.75276],"finishName":"Victoria Park"}
  },
  "entryStatus": {
+  "miami-2027": {"s":"soldout","note":"General registration is sold out. The waitlist closed on 30 September 2026 and freed-up places go out by lottery; travel packages may still be available.","src":"https://www.themiamimarathon.com/registration/","checked":"2026-11-09"},
+  "dubai-2027": {"s":"open","note":"Registration for the 26th edition is open.","src":"https://www.dubaimarathon.org/","checked":"2026-11-09"},
   "antwerp-2027": {"s":"open","note":"Registration for the 24 October 2027 race is open (early-bird price).","src":"https://antwerpmarathon.com/en/edition-2027","checked":"2026-10-21"},
   "lyon-2027": {"s":"open","note":"Registration for the 3 October 2027 race is open.","src":"https://www.runinlyon.com/en","checked":"2026-11-09"},
   "madrid-2027": {"s":"open","note":"Registration open until 11 April 2027 or until places run out (marathon €120 now, €150 later).","src":"https://www.rockthesport.com/es/evento/zurich-rock-n-roll-running-series-madrid-2027","checked":"2026-10-14"},
@@ -844,6 +872,10 @@
   "vienna-2027": {"s":"soldout","note":"Marathon sold out: the official registration page only offers a waiting list.","src":"https://events.vienna-marathon.com/events/c0af0e08b2f9d796d7fd/registration_options","checked":"2026-10-14"}
  },
  "tips": {
+  "miami": {"items":[["Race morning","The marathon and half start together at 6:00 in front of the Kaseya Center (601 Biscayne Blvd). Corrals go off in waves, so your own start can be a while later, and the first hour is run in the dark."],["Heat and the causeways","Mornings are mild but humid, and some years have been much hotter. The MacArthur and Venetian causeways have no shade once the sun is up: wear a cap and sunscreen, drink early and slow down if it's hot."],["The course","Flat, but the official course notes warn of a narrow on-ramp onto the MacArthur Causeway at the start, speed bumps (around miles 3.9 and 22) and some uneven road. Every aid station has water and Gatorade Endurance."]],"src":["https://www.themiamimarathon.com/course/","https://runtothefinish.com/miami-marathon-tips/","https://cbsnews.com/miami/news/thousands-of-runners-to-take-part-in-life-time-miami-marathon-half-marathon"],"checked":"2026-11-09"},
+  "dubai": {"items":[["Getting to the start","Roads around Jumeirah Beach Road, Al Sufouh and the Police Academy are closed and there's no parking there. Park around Mall of the Emirates or Al Barsha and walk over the metro bridge, or take a taxi to Al Wasl Road. Arrive at least 90 minutes early."],["Race morning","The elite race starts at 5:45 and the mass marathon at 6:30, with a 6-hour time limit. Bag drop takes only the official bag from your race pack, with your bib sticker on it."],["The course","Flat and fast, with two loops of Jumeirah Beach Road past the Burj Al Arab. Water every 2.5 km from km 5 and sports drink every 5 km from km 15; no gels are listed, so carry your own."]],"src":["https://www.dubaimarathon.org/race-info/general-info/","https://www.dubaimarathon.org/race-info/routes-maps/"],"checked":"2026-11-09"},
+  "baku": {"items":[["A new marathon","2026 was the first time the Baku Marathon was run over the full 42 km (on 3 May, starting at 10:00). The 2027 date isn't announced yet; early May is expected."],["Point to point","The race starts at State Flag Square in the city and finishes at Sea Breeze on the north coast, about 30 km away, so plan how you'll get back to your hotel."],["Wind","Baku is known for wind: the 2026 slogan was \"Win the Wind\", and the men's winner said the race was run in very strong wind."]],"src":["https://www.marathon.az/?lang=en","https://en.apa.az/others-type/baku-marathon-2026-concludes-photo-504316","https://caspianpost.com/azerbaijan/turkish-runner-wins-baku-marathon-2026-in-record-turnout"],"checked":"2026-11-09"},
+  "jakarta": {"items":[["A very early start","Racing starts at 4:00 local time to beat the heat; bag drop opens at 2:00. Jakarta is hot and humid all year, so even an early start is warm: pace conservatively."],["Race weekend","Race packs are collected from Thursday to Saturday (10–12 June 2027) at the JICC in Senayan. Foreign runners enter the Open category; international registration runs 1–31 December 2026."],["On the course","Water stations about every 2 km and ambulances about every 5 km. The marathon time limit is 7 hours. Runners with a history of heart disease need a cardiologist's letter."]],"src":["https://jakim.id/pre-race","https://jakim.id/"],"checked":"2026-11-09"},
   "milan": {"items":[["Who can enter","Runners from abroad need a RUNCARD plus an Italian-style sports medical certificate (with an ECG and other tests) to run competitively; otherwise you can enter the non-competitive 'tourism' category, which runs at the same time but without prizes."],["Getting to the start","The race starts on Corso Sempione near the Arco della Pace and finishes in Piazza del Duomo (2026 layout). The start is at 8:15 in waves."],["Time limits","You have 6 h 30. There are cut-offs at km 21.1 (3 h 15 into the race) and km 27.8 (4 h 20)."],["Entries","Registration closes at 23:59 on 31 March 2027, or earlier if full. The price rises the later you enter, plus a €5 service fee."]],"src":["https://www.milanomarathon.it/wp-content/uploads/2026/04/Rules-Wizz-Air-Milano-Marathon-2027_EN.pdf","https://www.milanofree.it/milano/eventi/milano-marathon-2026-data-12-aprile-partenza-e-arrivo-relay-family-run-e-guida-pratica-metro-viabilita-consigli.html"],"checked":"2026-10-15"},
   "malaga": {"items":[["Getting to the start","Start and finish are on Paseo del Parque, opposite the University of Málaga Rectorate. The race starts at 8:30."],["Bib collection","Bibs are not handed out on race day: collect yours at the runners' fair with your registration receipt and ID or passport."],["Time limits","You have 5 h 30, with checkpoints every 5 km (for example 2:36 at 20 km and 3:54:30 at 30 km)."],["Entries","12,000 places; registration closes on 2 November 2026 at 20:00 or when places run out."]],"src":["https://www.generalimaratonmalaga.com/regulations-marathon-malaga/"],"checked":"2026-10-15"},
   "antwerp": {"items":[["The course","The finish is at the MAS museum on the Eilandje; the course passes the Cathedral of Our Lady, the Grote Markt and the Scheldt quays."],["Time limit","The time limit is 5 h 30."],["Race date","The race moved to October: the 2026 edition is on Sunday 18 October."]],"src":["https://www.finishers.com/en/event/marathon-d-anvers","https://racecast.io/race/trek-antwerp-marathon"],"checked":"2026-10-15"},
@@ -987,6 +1019,10 @@
   "goldcoast": {"src":["https://aims-worldrunning.org/articles/2589-flat-fast-and-scenic.html","https://rundida.com/marathon/gold-coast/"],"checked":"2026-10-13","gain":62,"gainSrc":["https://aims-worldrunning.org/articles/2589-flat-fast-and-scenic.html","https://rundida.com/marathon/gold-coast/"],"gainKind":"sources"}
  },
  "feeFacts": {
+  "miami": {"price":"US$225 general registration (sold out) · US$250 waitlist","y":2027,"src":"https://www.themiamimarathon.com/registration/","checked":"2026-11-09"},
+  "dubai": {"price":"US$150","y":2027,"src":"https://www.dubaimarathon.org/race-info/entry-fees/","checked":"2026-11-09"},
+  "baku": {"price":"100 AZN international · 20 AZN residents of Azerbaijan · students free","y":2026,"src":"https://www.marathon.az/?lang=en","checked":"2026-11-09"},
+  "jakarta": {"price":"IDR 1,814,900 Open category (international runners) · IDR 1,000,000 national (early bird IDR 750,000)","y":2027,"src":"https://jakim.id/","checked":"2026-11-09"},
   "helsinki": {"price":"€82 → €89","y":2027,"note":"€82 until 12 January 2027","src":"https://helsinkicityrun.fi/en/helsinkicitymarathon/","checked":"2026-11-09"},
   "edinburgh": {"price":"From £84.50","y":2027,"note":"standard entry; all options and prices are shown when you enter","src":"https://www.edinburghmarathon.com/marathon/event-information","checked":"2026-11-09"},
   "luxor": {"price":"€91.20","y":2027,"note":"including VAT; plus a 5% service fee","src":"https://www.hopasports.com/en/event/34th-egyptian-marathon-luxor","checked":"2026-10-19"},

@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-09T06:02:47Z",
+ "updated": "2026-11-10T06:26:42Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
   ["nicecannes","Nice–Cannes Marathon","Nice","France","Europe","2027-11-07",1,"NCE",14,18,100,13,"flat","open|tour","From €66 (2026)","","4:20",8000,"Point to point along the French Riviera: from the Promenade des Anglais in Nice, along the coast between the sea and the palm trees, to the finish on the Croisette in Cannes, opposite the Palais des Festivals.","Refreshment stations along the course","Ask the organiser which gels and food are offered","https://www.marathon06.com/"],
@@ -823,7 +823,7 @@
   "twincities-2027": {"s":"not-open","note":"2027 registration not open yet; from 2027 the race weekend moves to 10–17 October.","src":"https://www.tcmevents.org/","checked":"2026-11-09"},
   "lisbon-2027": {"s":"not-open","note":"The 2027 marathon is not on the organiser's website yet.","src":"https://www.maratonaclubedeportugal.com/","checked":"2026-10-13"},
   "fukuoka-2026": {"s":"ballot-closed","note":"Applications ran 20 April – 20 May 2026 (lottery if oversubscribed).","src":"https://www.f-marathon.jp/en/","checked":"2026-10-13"},
-  "beirut-2026": {"s":"open","note":"Registration open until 20 November 2026 or until full.","src":"https://beirutmarathon.org/registration.php","checked":"2026-11-05"},
+  "beirut-2026": {"s":"open","note":"Registration open until 20 November 2026 or until full.","src":"https://beirutmarathon.org/registration.php","checked":"2026-11-10"},
   "seville-2027": {"s":"soldout","note":"Sold out on 24 April 2026 (20,000 runners); waiting list on the official website.","src":"https://www.zurichmaratonsevilla.es/en/","checked":"2026-10-13"},
   "prague-2027": {"s":"open","note":"Registration for the spring 2027 season is open.","src":"https://www.runczech.com/en/","checked":"2026-10-27"},
   "rotterdam-2027": {"s":"soldout","note":"All 18,000 marathon entries were taken on 4 November 2026, the day registration opened; a few charity places remain through KWF.","src":"https://nnmarathonrotterdam.nl/en/46th-edition-of-the-nn-marathon-rotterdam-sold-out/","checked":"2026-11-05"},
@@ -867,7 +867,7 @@
   "philadelphia-2026": {"s":"soldout","note":"Sold out on 24 July, the earliest ever.","src":"https://www.philadelphiamarathon.com/2026-philadelphia-marathon-and-half-marathon-sell-out-in-record-time/","checked":"2026-10-10"},
   "reykjavik-2027": {"s":"open","note":"Registration for 2027 opened the day after the 2026 race.","src":"https://www.rmi.is/en/registration-entry-fee","checked":"2026-10-27"},
   "riga-2027": {"s":"open","note":"Registration opened on 16 June 2026.","src":"https://rimirigamarathon.com/en/news/registration-for-the-rimi-riga-marathon-2027-is-open/","checked":"2026-10-10"},
-  "rome-2027": {"s":"open","note":"Registration for 2027 has opened; 2026 sold out.","src":"https://sport.quotidiano.net/en/ultimaora/atletica-maratona-di-roma-il-67a3dbc0","checked":"2026-10-10"},
+  "rome-2027": {"s":"open","note":"Registration for the 14 March 2027 race is open (\"Secure your bib\"); 2026 sold out.","src":"https://www.runromethemarathon.com/en/","checked":"2026-11-10"},
   "sansebastian-2026": {"s":"soldout","note":"7,000 marathon places sold; the 10K may still have places.","src":"https://www.planomato.com/es/san-sebastian/p/zurich-maraton-san-sebastian-2026","checked":"2026-10-10"},
   "shanghai-2026": {"s":"ballot-closed","note":"Lottery results were announced on 30 June.","src":"https://english.shanghai.gov.cn/en-SportsEvents/20260427/8152288074a44b44a7efbfd4b0b67797.html","checked":"2026-10-10"},
   "singapore-2026": {"s":"closed","note":"Registration closed on 30 September; local full-marathon places sold out in August. Now called the BYD Singapore International Marathon.","src":"https://littlebigreddot.com/singapore-international-marathon-2026-registration-route-fees/","checked":"2026-10-10"},
@@ -876,7 +876,7 @@
   "taipei-2026": {"s":"ballot-closed","note":"Full-marathon places were drawn by lottery in July.","src":"https://www.nownews.com/news/6852972","checked":"2026-10-10"},
   "tokyo-2027": {"s":"ballot-closed","note":"The lottery ran 14–28 August 2026.","src":"https://therunningchannel.com/apply-major-marathons-2027/","checked":"2026-10-10"},
   "valencia-2026": {"s":"ballot-closed","note":"Places were drawn by ballot in January 2026.","src":"https://marathonhandbook.com/heres-how-to-enter-the-2026-valencia-marathon-ballot/","checked":"2026-10-10"},
-  "vancouver-2027": {"s":"open","note":"Capacity is limited and the price rises as it fills.","src":"https://raceroster.com/events/2027/118954/2027-bmo-vancouver-marathon/","checked":"2026-10-10"},
+  "vancouver-2027": {"s":"open","note":"Capacity is limited and the price rises as it fills.","src":"https://raceroster.com/events/2027/118954/2027-bmo-vancouver-marathon/","checked":"2026-11-10"},
   "vienna-2027": {"s":"soldout","note":"Marathon sold out: the official registration page only offers a waiting list.","src":"https://events.vienna-marathon.com/events/c0af0e08b2f9d796d7fd/registration_options","checked":"2026-10-14"}
  },
  "tips": {

@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-11T06:07:24Z",
+ "updated": "2026-11-12T06:29:48Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
   ["nicecannes","Nice–Cannes Marathon","Nice","France","Europe","2027-11-07",1,"NCE",14,18,100,13,"flat","open|tour","From €66 (2026)","","4:20",8000,"Point to point along the French Riviera: from the Promenade des Anglais in Nice, along the coast between the sea and the palm trees, to the finish on the Croisette in Cannes, opposite the Palais des Festivals.","Refreshment stations along the course","Ask the organiser which gels and food are offered","https://www.marathon06.com/"],
@@ -823,7 +823,7 @@
   "twincities-2027": {"s":"not-open","note":"2027 registration not open yet; from 2027 the race weekend moves to 10–17 October.","src":"https://www.tcmevents.org/","checked":"2026-11-09"},
   "lisbon-2027": {"s":"not-open","note":"The 2027 marathon is not on the organiser's website yet.","src":"https://www.maratonaclubedeportugal.com/","checked":"2026-10-13"},
   "fukuoka-2026": {"s":"ballot-closed","note":"Applications ran 20 April – 20 May 2026 (lottery if oversubscribed).","src":"https://www.f-marathon.jp/en/","checked":"2026-10-13"},
-  "beirut-2026": {"s":"open","note":"Registration open until 20 November 2026 or until full.","src":"https://beirutmarathon.org/registration.php","checked":"2026-11-10"},
+  "beirut-2026": {"s":"open","note":"Registration open until 20 November 2026 or until full.","src":"https://beirutmarathon.org/registration.php","checked":"2026-11-12"},
   "seville-2027": {"s":"soldout","note":"Sold out on 24 April 2026 (20,000 runners); waiting list on the official website.","src":"https://www.zurichmaratonsevilla.es/en/","checked":"2026-10-13"},
   "prague-2027": {"s":"open","note":"Registration for the spring 2027 season is open.","src":"https://www.runczech.com/en/","checked":"2026-11-11"},
   "rotterdam-2027": {"s":"soldout","note":"All 18,000 marathon entries were taken on 4 November 2026, the day registration opened; a few charity places remain through KWF.","src":"https://nnmarathonrotterdam.nl/en/46th-edition-of-the-nn-marathon-rotterdam-sold-out/","checked":"2026-11-05"},

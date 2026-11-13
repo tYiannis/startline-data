@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-12T06:29:48Z",
+ "updated": "2026-11-13T06:08:46Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
   ["nicecannes","Nice–Cannes Marathon","Nice","France","Europe","2027-11-07",1,"NCE",14,18,100,13,"flat","open|tour","From €66 (2026)","","4:20",8000,"Point to point along the French Riviera: from the Promenade des Anglais in Nice, along the coast between the sea and the palm trees, to the finish on the Croisette in Cannes, opposite the Palais des Festivals.","Refreshment stations along the course","Ask the organiser which gels and food are offered","https://www.marathon06.com/"],
@@ -112,7 +112,7 @@
   "chicago": [{"k":"lottery","y":2028,"from":"2027-10-08","to":"2027-10-29","c":0,"note":"Expected from last year: 2027 applications ran 8–29 Oct 2026. Runners with a qualifying time apply in the same window"}],
   "nicecannes": [{"k":"Registration","y":2027,"from":"2026-11-12","to":null,"c":1,"note":"Opens Thursday 12 November 2026 at 12:00 (French time). The 2026 race sold out."}],
   "jakarta": [{"k":"International registration","y":2027,"from":"2026-12-01","to":"2026-12-31","c":1,"note":"Foreign runners enter the Open category on JAKIM.id, while places last."}],
-  "berlin": [{"k":"lottery","y":2027,"from":"2026-10-01","to":"2026-11-12","res":"2026-12-03","c":1}],
+  "berlin": [{"k":"lottery","y":2028,"from":"2027-10-01","to":"2027-11-12","c":0,"note":"Expected from last year: the 2027 lottery ran 1 Oct – 12 Nov 2026 (results 3 Dec)"}],
   "dublin": [{"k":"ballot","y":2027,"from":"2026-11-12","to":"2026-11-17","c":1,"note":"€4 ballot fee, refunded if you don't get a place"}],
   "valencia": [{"k":"ballot","y":2027,"from":"2026-12-16","to":"2026-12-26","c":0,"note":"Last year's runners get a few days' priority before the public ballot"}],
   "nyc": [{"k":"drawing","y":2027,"from":"2027-02-02","to":"2027-02-23","c":0}],
@@ -803,7 +803,7 @@
   "auckland": {"start":[-36.83077,174.79757],"startName":"Devonport Wharf","finish":[-36.84632,174.75276],"finishName":"Victoria Park"}
  },
  "entryStatus": {
-  "nicecannes-2027": {"s":"not-open","note":"Registration for 2027 opens on Thursday 12 November 2026 at 12:00.","src":"https://www.marathon06.com/","checked":"2026-11-09"},
+  "nicecannes-2027": {"s":"open","note":"Registration for the 7 November 2027 race opened on 12 November 2026; the race usually sells out more than six months ahead.","src":"https://www.marathon06.com/2027/","checked":"2026-11-13"},
   "miami-2027": {"s":"soldout","note":"General registration is sold out. The waitlist closed on 30 September 2026 and freed-up places go out by lottery; travel packages may still be available.","src":"https://www.themiamimarathon.com/registration/","checked":"2026-11-09"},
   "dubai-2027": {"s":"open","note":"Registration for the 26th edition is open.","src":"https://www.dubaimarathon.org/","checked":"2026-11-09"},
   "antwerp-2027": {"s":"open","note":"Registration for the 24 October 2027 race is open (early-bird price).","src":"https://antwerpmarathon.com/en/edition-2027","checked":"2026-11-11"},
@@ -835,7 +835,8 @@
   "abudhabi-2026": {"s":"open","note":"Registration for 2026 is open.","src":"https://www.adnocabudhabimarathon.com/","checked":"2026-11-11"},
   "bangkok-2027": {"s":"open","note":"Registration open until 31 October or until places fill.","src":"https://www.timeout.com/bangkok/news/bangkok-marathon-071026","checked":"2026-10-10"},
   "barcelona-2027": {"s":"soldout","note":"Sold out with a record 37,000 entries; registration closed about four and a half months before race day (organiser, 1 November 2026).","src":"https://zurichmaratobarcelona.es/en/2026/11/01/zurich-marato-de-barcelona-makes-history-with-37000-entries-sold-becoming-spains-most-popular-marathon/","checked":"2026-11-03"},
-  "berlin-2027": {"s":"open","note":"Lottery open until 12 November 2026; results on 3 December.","src":"https://www.generali-berlin-marathon.com/en/registration/run","checked":"2026-11-11"},
+  "berlin-2027": {"s":"ballot-closed","note":"The lottery ran 1 October – 12 November 2026; results are emailed on 3 December.","src":"https://www.generali-berlin-marathon.com/en/registration/run","checked":"2026-11-13"},
+  "dublin-2027": {"s":"open","note":"The 2027 general ballot is open 12–17 November 2026 (€4 ballot fee, refunded if you don't get a place).","src":"https://www.irishlifedublinmarathon.ie/","checked":"2026-11-13"},
   "bigsur-2027": {"s":"ballot-closed","note":"Drawing winners were announced on 8 September 2026.","src":"https://www.bigsurmarathon.org/register/","checked":"2026-10-10"},
   "boston-2027": {"s":"closed","note":"Qualifier registration closed on 18 September 2026; acceptances were sent in early October.","src":"https://marathonhandbook.com/boston-marathon-2027-registration-qualifier-lottery/","checked":"2026-10-10"},
   "brighton-2027": {"s":"soldout","note":"General entry is sold out; charity places are still available.","src":"https://www.londonmarathonevents.co.uk/brighton-marathon-weekend","checked":"2026-10-27"},
@@ -856,7 +857,7 @@
   "la-2027": {"s":"open","note":"General entry is on sale; prices rise in stages.","src":"https://www.mccourtfoundation.org/event/los-angeles-marathon/register","checked":"2026-11-11"},
   "lagos-2027": {"s":"not-open","note":"Registration for 2027 had not opened yet in October 2026.","src":"https://fatmarathoner.com/?p=9923","checked":"2026-10-10"},
   "london-2027": {"s":"ballot-closed","note":"The ballot ran 24 April – 1 May 2026.","src":"https://www.londonmarathonevents.co.uk/london-marathon/article/ballot-2027-tcs-london-marathon-open-friday-24-april","checked":"2026-10-10"},
-  "luxor-2027": {"s":"open","note":"Registration closes on 1 January 2027 or when full.","src":"https://www.hopasports.com/en/event/34th-egyptian-marathon-luxor","checked":"2026-10-10"},
+  "luxor-2027": {"s":"open","note":"Registration closes on 1 January 2027 or when full.","src":"https://www.hopasports.com/en/event/34th-egyptian-marathon-luxor","checked":"2026-11-13"},
   "malta-2027": {"s":"open","note":"Early-bird price until 30 November; registration closes 20 February.","src":"https://worldsmarathons.com/marathon/malta-marathon/register","checked":"2026-10-10"},
   "manchester-2027": {"s":"soldout","note":"General entry sold out in April 2026, about ten days after places were released.","src":"https://the5krunner.com/2026/08/27/manchester-marathon-2027/","checked":"2026-10-10"},
   "marrakech-2027": {"s":"open","note":"Registration open until 24 January 2027; no ballot.","src":"https://www.marathon-marrakech.com/en/races/marrakech-marathon","checked":"2026-11-09"},

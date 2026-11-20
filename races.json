@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated":"2026-11-20T07:00:00Z",
+ "updated": "2026-11-20T14:23:06Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
   ["nicecannes","Nice–Cannes Marathon","Nice","France","Europe","2027-11-07",1,"NCE",14,18,100,13,"flat","open|tour","From €65 (first 1,000 entries), plus €1 for the Alpes-Maritimes food bank","","4:20",8000,"Point to point along the French Riviera: from the Promenade des Anglais in Nice, along the coast between the sea and the palm trees, to the finish on the Croisette in Cannes, opposite the Palais des Festivals.","Refreshment stations along the course","Ask the organiser which gels and food are offered","https://www.marathon06.com/"],

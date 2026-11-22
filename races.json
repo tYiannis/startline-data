@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-22T14:46:56Z",
+ "updated": "2026-11-22T15:14:59Z",
  "note": "Startline race data. Edit, validate (tools/check-races.sh) and publish; the app picks up newer copies by the 'updated' timestamp.",
  "races": [
   ["nicecannes","Nice–Cannes Marathon","Nice","France","Europe","2027-11-07",1,"NCE",14,18,100,13,"flat","open|tour","From €65 (first 1,000 entries), plus €1 for the Alpes-Maritimes food bank","","4:20",8000,"Point to point along the French Riviera: from the Promenade des Anglais in Nice, along the coast between the sea and the palm trees, to the finish on the Croisette in Cannes, opposite the Palais des Festivals.","Refreshment stations along the course","Ask the organiser which gels and food are offered","https://www.marathon06.com/"],
@@ -132,6 +132,7 @@
   "boston": [{"k":"qualifier registration","y":2028,"from":"2027-09-13","to":"2027-09-17","c":0,"note":"For runners with a qualifying time"}],
   "hongkong": [{"k":"public ballot","y":2028,"from":"2027-09-10","to":"2027-09-20","c":0}]
  },
+ "expoCoords": {"amsterdam": [52.34002, 4.89033], "athens": [37.93287, 23.68913], "berlin": [52.48251, 13.38906], "boston": [42.34754, -71.08502], "capetown": [-33.92632, 18.41593], "chicago": [41.84994, -87.61593], "dubai": [25.09965, 55.17934], "dublin": [53.3255, -6.229], "frankfurt": [50.11186, 8.65087], "goldcoast": [-28.02787, 153.4286], "hamburg": [53.564, 9.985], "hongkong": [22.3233, 114.199], "honolulu": [21.28965, -157.8366], "houston": [29.75221, -95.35779], "jakarta": [-6.23314, 106.81543], "ljubljana": [46.06184, 14.50828], "london": [51.5081, 0.0295], "melbourne": [-37.82145, 144.98347], "miami": [25.79832, -80.20188], "nicecannes": [43.69688, 7.26304], "nyc": [40.75726, -74.00175], "paris": [48.82955, 2.28989], "rome": [41.88532, 12.48503], "rotterdam": [51.92074, 4.48068], "sansebastian": [43.32484, -1.97747], "seville": [37.40437, -5.93243], "shanghai": [31.18689, 121.48792], "sydney": [-33.84468, 151.06657], "tokyo": [35.62963, 139.79448], "twincities": [44.94402, -93.0996], "valencia": [39.50414, -0.42657]},
  "expos": {
   "nicecannes": ["Centre des Congrès Nicéa (Marathon Expo)","Port de Nice, Quai Amiral Infernet, Nice",[-3,-1],"Bibs aren't posted or handed out on race day. Bring ID, your collection voucher and your PPS health certificate."],
   "miami": ["Mana Wynwood (Miami Famous Expo)","318 NW 23rd St, Miami, FL 33127",[-2,-1],"Packet pickup is compulsory unless you bought bib mailing. Friday 12:00–19:00, Saturday 10:00–18:00.",1],
